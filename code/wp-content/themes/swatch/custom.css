@@ -1,0 +1,507 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+/* 1.1 Defaults */
+body {
+	background-color: #16b4da;
+	background-image: none;
+}
+
+.hr-dotted {
+	background-color: none;
+	background-image: url(images/custom/hr_dotted.png);
+	background-repeat: repeat-x;
+	clear: both;
+	border: 0; 
+	height: 5px;
+	margin: 1em;
+	margin-left: 0;
+	width: 100%;
+}
+
+h1, h4, h5, h6 {
+	text-shadow: 0 1px 0 #aaa;
+}
+
+div#content {
+	height: 100%;
+	margin-top: 60px; /* footer hack margin-bottom: 120px; */
+}
+
+
+
+/* 2.1 Containers & Columns */
+#wrapper  { background: none; padding-top: 15px; } /* Top padding is the height of the colour strip image. */
+
+/* 2.2 Navigation */
+#navigation {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	position: relative;
+	top: 48px;
+}
+#navigation .nav {
+	border-color: #fff;
+}
+
+#navigation-bottom {
+	position: relative;
+	top: -6px;
+}
+#navigation-bottom .nav {
+	border-color:#5c5c5c;
+}
+
+/* Override for top menu */
+
+#navigation .nav { z-index:99; margin:0; padding:0; list-style:none; line-height:1; }
+#navigation .nav a  {
+	position:relative;
+	color: inherit;
+	display:block;
+	z-index:100;
+	padding: 0;
+	line-height:18px;
+	text-decoration:none; 
+	text-shadow:none;
+}
+#navigation .nav > li  { color: #fff; float:left; width: auto; margin-left: 5px; padding-left: 5px; border-left: none; border-color: inherit; border-top: none; }
+#navigation .nav > li:first-child { border-left: none; }
+#navigation .nav li a.sf-with-ul { padding-right: inherit; }
+#navigation .nav li a {
+	text-shadow: 0 -1px 0 #000; 
+}
+#navigation .nav .sf-sub-indicator { background: none; }
+#navigation .nav a:hover, 
+#navigation .nav li.current_page_item a, 
+#navigation .nav li.current_page_parent a,
+#navigation .nav li.current-menu-ancestor a,
+#navigation .nav li.current-cat a,
+#navigation .nav li.current-menu-item a,
+#navigation .nav li.sfHover { background: none; border-radius: 0; -moz-border-radius: 0px; -webkit-border-radius: 0px; }
+#navigation .nav a:hover {
+	text-decoration: underline;
+}
+
+#navigation .nav li ul  { background: rgba(31, 31, 31, 0.5); margin: 0 0 0 0; padding: 2px 2px; position: absolute; left: -999em; width: 80px; z-index:999; }
+#navigation .nav li ul li { margin-left: 0px !important; }
+#navigation .nav li ul li a  { padding: 2px 0px; border-top: none; border-bottom: none; width: 80px; color:#ffffff; background: none; font-size:0.9em;}
+#navigation .nav li ul li a:hover  { text-decoration: underline; }
+#navigation .nav li ul li a.sf-with-ul { padding-right:0; }
+#navigation .nav li ul ul  { margin: -37px 0 0 140px; }
+
+#navigation .nav li ul li a:hover, 
+#navigation .nav li.current_page_item ul li a, 
+#navigation .nav li.current_page_parent ul li a,
+#navigation .nav li.current-menu-ancestor ul li a,
+#navigation .nav li.current-cat a ul li,
+#navigation .nav li.current-menu-item ul li a,
+#navigation .nav li.sfHover ul li { background:none; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;}
+
+#navigation .nav li:hover, #navigation .nav li.hover  { position:static; }
+#navigation .nav li:hover ul ul, #navigation .nav li.sfhover ul ul,
+#navigation .nav li:hover ul ul ul, #navigation .nav li.sfhover ul ul ul,
+#navigation .nav li:hover ul ul ul ul, #navigation .nav li.sfhover ul ul ul ul { left:-999em; }
+#navigation .nav li:hover ul, #navigation .nav li.sfhover ul,
+#navigation .nav li li:hover ul, #navigation .nav li li.sfhover ul,
+#navigation .nav li li li:hover ul, #navigation .nav li li li.sfhover ul,
+#navigation .nav li li li li:hover ul, #navigation .nav li li li li.sfhover ul  { left:auto; }
+
+/* Override for bottom menu */
+
+#navigation-bottom .nav { z-index:99; margin:0; padding:0; list-style:none; line-height:1; }
+#navigation-bottom .nav a  {
+	position:relative;
+	color: inherit;
+	display:block;
+	z-index:100;
+	padding: 0;
+	line-height:18px;
+	text-decoration:none; 
+	text-shadow:none;
+}
+#navigation-bottom .nav li { display: inline; }
+#navigation-bottom .nav > li  { color: #5c5c5c; float:left; width: auto; margin-left: 5px; padding-left: 5px; border-left: none; border-color: inherit; border-top: none; }
+#navigation-bottom .nav > li:first-child { border-left: none; }
+#navigation-bottom .nav li a.sf-with-ul { padding-right: inherit; }
+#navigation-bottom .nav li a {
+	text-shadow: 0 -1px 0 #000; 
+}
+#navigation-bottom .nav .sf-sub-indicator { background: none; }
+#navigation-bottom .nav a:hover, 
+#navigation-bottom .nav li.current_page_item a, 
+#navigation-bottom .nav li.current_page_parent a,
+#navigation-bottom .nav li.current-menu-ancestor a,
+#navigation-bottom .nav li.current-cat a,
+#navigation-bottom .nav li.current-menu-item a,
+#navigation-bottom .nav li.sfHover { background: none; border-radius: 0; -moz-border-radius: 0px; -webkit-border-radius: 0px; }
+#navigation-bottom .nav a:hover {
+	text-decoration: underline;
+}
+
+#navigation-bottom .nav li ul  { background: rgba(224, 224, 224, 0.5); margin: 0 0 0 0; padding: 2px 2px; position: absolute; left: -999em; width: 80px; z-index:999; }
+#navigation-bottom .nav li ul li { display: inline; margin-left: 0px !important; }
+#navigation-bottom .nav li ul li a  { padding: 2px 0px; border-top: none; border-bottom: none; width: 80px; color:#5c5c5c; background: none; font-size:0.9em;}
+#navigation-bottom .nav li ul li a:hover  { text-decoration: underline; }
+#navigation-bottom .nav li ul li a.sf-with-ul { padding-right:0; }
+#navigation-bottom .nav li ul ul  { margin: -37px 0 0 140px; }
+
+#navigation-bottom .nav li ul li a:hover, 
+#navigation-bottom .nav li.current_page_item ul li a, 
+#navigation-bottom .nav li.current_page_parent ul li a,
+#navigation-bottom .nav li.current-menu-ancestor ul li a,
+#navigation-bottom .nav li.current-cat a ul li,
+#navigation-bottom .nav li.current-menu-item ul li a,
+#navigation-bottom .nav li.sfHover ul li { background:none; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;}
+
+#navigation-bottom .nav li:hover, #navigation-bottom .nav li.hover  { position:static; }
+#navigation-bottom .nav li:hover ul ul, #navigation-bottom .nav li.sfhover ul ul,
+#navigation-bottom .nav li:hover ul ul ul, #navigation-bottom .nav li.sfhover ul ul ul,
+#navigation-bottom .nav li:hover ul ul ul ul, #navigation-bottom .nav li.sfhover ul ul ul ul { left:-999em; }
+#navigation-bottom .nav li:hover ul, #navigation-bottom .nav li.sfhover ul,
+#navigation-bottom .nav li li:hover ul, #navigation-bottom .nav li li.sfhover ul,
+#navigation-bottom .nav li li li:hover ul, #navigation-bottom .nav li li li.sfhover ul,
+#navigation-bottom .nav li li li li:hover ul, #navigation-bottom .nav li li li li.sfhover ul  { left:auto; }
+
+/* 2.3 Header */
+#header {
+	background-image: none;
+	background-color: #16b4da;
+	position: fixed;
+	top: 0px;	
+	width: 100%;
+	text-align: center;
+	z-index: 9999;
+	margin-bottom: 5px;
+}
+#header .col-full {
+	vertical-align: bottom;
+}
+
+/* 2.4.1 Homepage */
+.home #main .col-left { width: 48%; margin-left: 1%; margin-right: 1%; }
+.home #main #sidebar { width: 48%; margin-left: 1%; margin-right: 1%; }
+
+#for-x ul li {
+	display: table-row;
+	padding: 1em;
+	height: 70px;
+}
+
+#for-x ul li.spacer {
+	height: 16px;
+}
+
+#for-x ul li div {
+}
+
+#for-x ul li div.icon {
+	display: table-cell;
+	width: 100px;
+	height: 70px;
+	background-color: #9adcec;
+	vertical-align: middle;
+}
+
+#for-x ul li div.icon img {
+	display: block;
+	margin: 0 auto;
+}
+
+#for-x ul li div.description {
+	display: table-cell;
+	vertical-align: top;
+	float: right;
+	font-family: Georgia, serif;
+	font-style: italic;
+	margin-left: 1em;
+	color: #fff;
+}
+
+#for-x ul li div.description h3 {
+	color: #000;
+	font-family: "Helvetica", sans-serif;
+	font-weight: bold;
+	font-style: normal;
+}
+
+#for-x ul li div.description h3 em {
+	color: #eee89c;
+	font-style: normal;
+}
+
+/* 2.4.2 Featured slider */
+#featured-slider { padding: 35px 0 30px; position: relative; background-color: #16b4da; background-image: none; }
+
+/* 2.4.3 Mini-Features */
+#mini-features { padding: 7px 0; background-image: none;}
+
+/* 2.6 Footer */
+#footer{
+	width: 100%;
+	padding: 30px 0 50px;
+	background-image: none;
+	background-color: #ccc;
+	color:#5c5c5c;
+	/*position: fixed;
+  bottom: 0;
+  z-index: 9999;*/
+}
+
+#footer a { color: #5c5c5c; }
+
+#footer a:hover { text-decoration: underline; }
+
+#connect {
+	display: table-cell;
+	background: none;
+	border: none;
+	padding: 0;
+	vertical-align: middle;
+}
+
+#connect ul {
+	display: inline-table;
+	vertical-align:middle;
+}
+
+#connect ul li {
+	display: table-cell;
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+#connect ul li a {
+	text-decoration: none;
+}
+
+#connect ul li a img {
+	border: 0;
+	opacity: 0.75;
+}
+
+#connect ul li a:hover img {
+	opacity: 1;
+}
+
+/* 4.4 Widgets */
+/* 4.1 Generic Widgets */
+#sidebar .widget {
+	float: right;
+	width: 90%;
+	position: relative;
+	margin-left: 24px;
+	margin-top: 48px;
+	background-color: #cfcfcf !important;
+	background-image: none !important;
+}
+#sidebar .widget:first-child {
+	margin-top: 24px;
+}
+.widget  {
+	margin-bottom: 2em;
+}
+#sidebar .widget h3  {
+	display: block;
+	position: relative;
+	top: -24px;
+	left: -24px;
+	width: 180px;
+	margin: 0 0 -24px 0;
+	padding: 15px 15px 15px 15px;
+	font: bold 16px 'georgia', serif;
+	color: #16b4da;
+	background-color: #fff;
+	border-bottom: none;
+}
+
+/* 4.2 Specific Widgets */
+
+ul#last-n-posts-box {
+
+}
+
+ul#last-n-posts-box li {
+	display: table-row;
+	list-style-type: none;
+	font-weight: bold;
+}
+ul#last-n-posts-box li span {
+	display: table-cell;
+}
+ul#last-n-posts-box li span#description {
+	display: table-cell;
+	color: #000;
+	text-align: left;
+	float: left;
+	width: 90%;
+}
+
+ul#last-n-posts-box li span#link {
+	display: table-cell;
+	float: right;
+	text-align: right;
+	width: 10%;
+}
+
+ul#last-n-posts-box li span#link a {
+	color: #16b4da;
+}
+
+
+/* Custom - Vision page */
+
+#vision {
+	color: #fff;
+	font-family: "Helvetica", sans-serif;
+}
+
+#vision h1 {
+	display: inline;
+	font: bold 3em "Helvetica", sans-serif;
+	margin-top: 4px;
+	margin-right: 1em;
+	color: #000;
+
+}
+
+#vision ul {
+	list-style-type: disc;
+	margin-left: 2em;
+}
+
+#vision h3 {
+	display: inline;
+	vertical-align: bottom;
+	font-size: 1.2em;
+}
+
+#vision h4 {
+	color: #000;
+	margin-top: 16px;
+}
+
+#vision blockquote p {
+	font: 1.5em 'Georgia', serif;
+	margin: 1em auto 1em;
+	text-align: center;
+	color: #000;
+	text-shadow: 0 1px 0 #999; 
+}
+
+#vision blockquote p:before {
+	font-size: 2em;
+	content: '"';
+}
+
+#vision blockquote p:after {
+	font-size: 2em;
+	content: '"';
+}
+
+/* Custom - Verto redesign */
+
+#features {
+	background-color: #fff;
+	background-image: url(images/custom/feature_bar_top.png);
+	background-repeat: repeat-x;
+	padding: 0 2em 3em 2em;
+	background-position: top left;
+}
+
+#features #feature-tag {
+	display: block;
+	background-image: url(images/custom/feature_bar_features.png);
+	background-repeat: none;
+	width: 110px;
+	height: 98px;
+	margin-bottom: 2em;
+}
+
+#features ul {
+	display: table-row;
+}
+
+#features ul li {
+	display: table-cell;
+	padding: 0.5em 1.5em;
+	border-left: 2px solid #999;
+}
+
+#features ul li:first-child {
+	border-left: none;
+}
+
+#features ul li h3 {
+	font-family: "Helvetica", sans-serif;
+	font-size: 2em;
+	color: #16b4da;
+	margin-bottom: 1em;
+}
+
+#features ul li h3:before {
+	content: url(images/custom/feature_bar_bullet.png);
+	margin-right: 0.5em;
+	vertical-align: top;
+}
+
+#features ul li p {
+	font-family: 'Georgia', serif;
+}
+
+/* Custom: Products */
+
+#product-display {
+	display: table-row;
+	height: 450px;
+}
+
+#product-display #product-slider {
+	display: table-cell;
+}
+
+#product-display #product-gap {
+	display: table-cell;
+	width: 64px;
+}
+
+#product-display #product-desc {
+	display:table-cell; 
+	padding: 64px 1em 1em; 
+	overflow-y: hide; 
+	background: url(images/custom/product_page_sheet.png) no-repeat center; 
+	width: 418px;
+}
+
+#product-display #product-desc .label {
+	display: block; 
+	background: #ccc; 
+	position: relative; 
+	left: -32px; 
+	top: -24px; 
+	padding: 6px 24px; 
+	width: 75%;
+	text-align: center;
+}
+
+#product-display #product-desc p {
+	margin: 0 1em 1.5em;
+	text-align: justify;
+	font: 13px "Georgia", serif;
+}
+
+#product-display #product-desc p a img {
+	opacity: 0.7;
+}
+
+#product-display #product-desc p a:hover img {
+	opacity: 1;
+}
