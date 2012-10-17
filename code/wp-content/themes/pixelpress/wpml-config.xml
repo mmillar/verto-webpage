@@ -1,0 +1,21 @@
+<wpml-config> 
+    <admin-texts>
+        <key name="woo_exclude_cats_home" />
+        <key name="woo_exclude_cats_blog" />
+        <key name="woo_blog_section_title_text" />
+        <key name="woo_features_rewrite" />
+        <key name="woo_feedback_area_title" />
+        <key name="woo_portfolio_area_title" />
+        <key name="woo_portfolioitems_rewrite" />
+        <key name="woo_portfolio_excludenav" />
+        <key name="woo_connect_title" />
+        <key name="woo_contact_title" />
+        <key name="woo_blog_section_message" />
+        <key name="woo_blog_area_message" />
+        <key name="woo_feedback_area_message" />
+        <key name="woo_portfolio_section_message" />
+        <key name="woo_footer_left_text" />
+        <key name="woo_footer_right_text" />
+        <key name="woo_connect_content" />
+	</admin-texts>  
+</wpml-config>

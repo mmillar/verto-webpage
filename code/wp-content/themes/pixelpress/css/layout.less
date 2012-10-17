@@ -1,0 +1,534 @@
+/*
+The styles in this stylesheet only apply to resolutions 768px and up
+
+CALCULATING DIMENSIONS:
+----------------------
+The layout is fluid. The sote wrapper (.col-full) has a fixed pixel max-width.
+All subsequent dimensions are calculated based on that fixed pixel width, using the formula: target / context = result
+Credit - http://www.alistapart.com/articles/fluidgrids/
+
+-----
+INDEX
+-----
+
+1. Global dropdown styles
+2. Top Navigation
+3. Main navigation dropdown menus
+ -3.1 General dropdown menus 
+4. Containers & Columns
+5. Footer widgets
+6. IE Fixes
+
+*/
+
+
+/*----------------------*/
+
+@import url(mixins.less);
+
+/*----------------------*/
+
+
+body  { padding: 0; }
+
+@media only screen and (min-width: 768px) {
+
+	/* 1. GLOBAL DROPDOWN STYLES (these are purely for the dropdown layout and you should only edit the width of the dropdowns) */
+	ul.nav {
+		position: relative;
+		margin-bottom:0;
+		li {
+			position: relative;
+			float: left;
+			zoom:1;
+			list-style: none;
+			a {
+				display: block;
+				padding:.53em 1em;
+				font-size: 1.2em;
+			}
+			&.parent { // Styles applied to all parent list items
+			}
+		}
+		/* LEVEL 2 */
+		ul {
+			width:11.089em;
+			visibility: hidden;
+			position: absolute;
+			top:100%;
+			left: 0;
+			z-index: 9999;
+			margin:0;
+			li {
+				float: none;
+				a {
+					width: 100%;
+					display: inline-block;
+					.borderbox();
+				}
+				&.parent { // Styles applied to parent items in level 2
+				}
+			}			
+		}
+		/* LEVEL 3 */
+		ul ul {
+			left:100%;
+			top:0;
+			li {
+				&.parent { // Styles applied to parent items in level 3
+				}
+			}
+		}
+		li:hover > ul {
+			visibility: visible;
+		}
+	}
+			
+	/* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
+	#top {
+		background: #000;
+		padding:0 1.618em;
+		#top-nav { 
+			display: block; 
+		}
+		ul.nav {
+			font-size:.857em; // this adjusts the scale of the entire navigation and everything just works like magic
+			> li { // The following styles are applied ONLY to the top level list items
+				a {
+					color: @color_body;
+					&:hover {
+						background: #222;
+					}
+				}
+				&:hover {
+					background: #222;
+				}
+			}
+			/* LEVEL 2 */
+			ul {
+				background: #222;
+				li {
+					a {
+					}
+				}			
+			}
+			/* LEVEL 3 */
+			ul ul {
+			}
+			li:hover > ul {
+			}
+		}
+	}
+	
+	/* 3. MAIN NAVIGATION DROPDOWN MENUS (Add main navigation presentational styles here) */
+	#navigation  {	
+		display:block !important;
+		clear: none;
+		float: left;
+		padding: 0;
+		ul.nav {
+			> li { // The following styles are applied ONLY to the top level list items
+				a {
+					&:hover {
+						color: @color_links + #000;
+						background: lighten(@color_links, 47%);
+						.border_radius(5px);
+						text-decoration: none;
+					}
+				}
+				&:hover {
+					background: lighten(@color_links, 47%);
+					.border_radius(5px);
+				}
+			}
+			/* LEVEL 2 */
+			ul {
+				background: #fff;
+				background: rgba(255,255,255,.8);
+				border:0;
+				left:-1px; // -1px left to offset the border and keep everything lined up
+				li {
+					a {
+						font-size: 1em;
+						color: darken(@color_body,36%);
+						&:hover {
+							.border_radius(0);
+						}
+					}
+				}			
+			}
+			/* LEVEL 3 */
+			ul ul {
+				top:-1px;  // -1px top to offset the border and keep everything lined up
+				left:100%; // reapply left 100% as we're offsetting the first child by 1px
+			}
+			li:hover > ul {
+			}
+		}
+	}
+	// Hide the nav toggle link in desktop orientation
+	h3.nav-toggle {
+		display: none;
+	}
+
+	#header {
+		#logo {
+			float: left;
+			margin: 2em 2em 0 0;
+			padding-right: 2.244em;
+			a {
+				margin: 0;
+			}
+		}
+		#header-right {
+			float: right;
+			clear: none;
+			margin: 1.387em 0 0;	
+			#header-social {
+				margin: 0 0 0 1.618em;
+				float: right;
+			}
+		}
+		#main-nav { 
+			float: left;
+			border: 0;
+			.border_radius(0);
+			padding: 0;
+			li {
+				a {
+					padding-left: 1em;
+				}
+			}
+		}
+	}
+	
+	/* 4. CONTAINERS & COLUMNS */
+	.layout-full #main, .col-full { 
+		max-width:75.998em; 
+		/* max-width:105.398em;  */
+		margin:0 auto; 
+		width:100%; 
+		padding: 0;
+	}
+	#main { 
+		width: 68%; // golden ratio
+	} 
+	#main.fullwidth {
+		width: 100%;
+	}
+	#sidebar { 
+		margin-top: 0; 
+		width: 28%;  // golden ratio 
+	}
+	.entry img { 
+		max-width: 100%; 
+	}
+	.layout-full .entry img { 
+		max-width: 100%; 
+	}
+	.layout-right-content {
+		#main  { 
+			float: right; 
+		}
+		#sidebar  { 
+			float: left; 
+		}
+	}
+	.layout-full #main  { 
+		width: 100%; // full-width template
+	}
+	.col-left { 
+		float: left; 
+	}
+	.col-right { 
+		float: right; 
+	}
+	.page-template-template-contact-php {
+		.location-twitter  {
+			.col-left  { 
+				float: left; 
+			}
+			#office-location { 
+			    width: 48%; 
+			    margin: 0;
+			}
+			.contact-social  {
+			    float: right; 
+			    width: 48%;
+			    #twitter  { 
+			    } 
+			}
+		}
+	}
+
+	.col-full, #header, #footer-widgets, #footer { padding-left: 0; padding-right: 0; }
+	#featured {
+		position: relative;
+		ul.flex-direction-nav {
+			li {
+				a {
+					width: 5.874em;
+					height: 5.874em;
+				}
+			}
+		}
+	}
+
+	// Section Title
+	.section-title p span {
+		display: inline;
+	}
+
+
+
+	/* 5. FOOTER WIDGETS */
+	#footer-widgets {
+		.block { 
+			margin-right:3.8%; 
+			float: left; 
+		}
+		&.col-1 {
+			.block { 
+				width: 100%; 
+				float: none; 
+			}
+			.footer-widget-1 { 
+				margin-right:0; 
+			}
+		}
+		&.col-2 {
+			.block { 
+				width: 48%; 
+			}
+			.footer-widget-2 { 
+				margin-right:0; 
+			}
+		}
+		&.col-3 {
+			.block { 
+				width: 30.75%; 
+			}
+			.footer-widget-3 { 
+				margin-right:0; 
+			}
+		}
+		&.col-4 {
+			.block { 
+				width: 22.05% 
+			}
+			.footer-widget-4 { 
+				margin-right:0; 
+			}
+		}
+	}
+
+	/* 6. HOMEPAGE */
+
+		/* Homepage Top Section */
+		.home #main section:first-child {
+			&:after {
+			    margin-top: 2em;
+			}
+		}
+
+		/* 6.1 Mini-Features */
+		#mini-features, #home-blog {
+			ul  {
+				float: left;
+				width: 100%;
+				li  {
+					float: left;
+					margin-right: 5.63%;
+					width: 29.58%;
+				}
+			}
+		}
+
+		#mini-features {
+			ul {
+				li {
+					padding-bottom: 0;
+				}
+			}
+		}
+
+		/* 6.2 Feedback */
+		#feedback {
+			ul {
+				li {
+					padding-right: 52px;
+					position: relative;
+					.gravatar { 
+						float: none; 
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+					.content { padding: 0 0 0 82px; }
+					&:nth-child(3n+0) {
+						margin-right:0;
+					}
+				}
+			}
+			.flex-direction-nav {
+				li {
+					&:first-child {
+						left:43%;
+					}
+					&:last-child {
+						right:-42%;
+					}
+				}
+			}
+		}
+
+		/* 6.3 Portfolio */
+		.home .minor.flexslider {
+			ul {
+				margin: 0;
+				list-style:none;
+				li {
+					float: left;
+					.portfolio-item {
+						.content {
+							padding: 0 1.2em 0 0;
+						}
+					}					
+					&.clear  { width: 100%; margin: 0; }				
+				}
+			}
+			.flex-direction-nav {
+				li {
+					&:first-child {
+						left:-6em;
+					}
+					&:last-child {
+						right:-6em;
+					}
+				}
+			}
+			div.flex-direction-nav { top:46%; }
+		}
+
+		/* 6.4 Blog */
+		#home-blog ul li {
+			.post { padding-bottom:0; }
+		}
+
+		.post, .type-page, .type-features, .search-results .features, .search-results .page, .search-results .type-product, .search-results .type-portfolio {
+			margin:0 0 2.618em 9.505em;
+			.date-badge {
+				display: block;
+				position: absolute; top: 0; left: -9.505em; width: 12%; color: darken(@color_body, 36%);
+				span {
+					display: block;
+					&.month-day {
+						text-align: center;
+						height: 60px;
+						width:60px;
+						line-height:60px;
+						margin-bottom: .382em;
+						background: lighten(@bg_light, 100%);
+						font-size: 1.888em;
+						font-weight: bold;
+						.border_radius(50%);
+						.box_shadow(0, 1px, 0px, 1px, rgba(0,0,0,0.05));
+					}
+					&.month-name {
+						text-align: center;
+						font-size: 1em;
+					}
+				}
+			}
+		}
+		article.page, article.type-page, #portfolio.type-page {
+			margin-left: 0;
+		}
+
+	/* PORTFOLIO TEMPLATE */
+	#portfolio-gallery .portfolio-item {
+		width: 24%;
+		margin: 1em 0.49% 1em !important;
+	}
+	.single-portfolio {
+		.portfolio  { float: left; width:26%; }
+		.single-portfolio-gallery  { float: right; width: 70%; } 
+		#content .portfolio-item {
+			margin: 1em 0 1.618em;
+		}
+	}
+
+	/* 7. Archives */
+
+	/* FEATURES */
+	.post-type-archive-features {
+		.post {
+
+			.image-icon {
+				position: absolute;
+				left: -9.505em;
+				top: 0;
+				img {
+					background:none;
+					padding: 1.618em;
+					-webkit-box-shadow: none;
+					-moz-box-shadow: none;
+					box-shadow: none;
+					.border_radius(100px);
+				}
+			}
+		}
+	}
+
+	/* 7. IE FIXES */
+	
+	.ie7 {
+		#top-nav {
+			position: relative;
+			z-index: 9999999;
+		}
+		#header {
+			position: relative;
+			z-index: 9999999;
+		}
+	}
+
+}
+
+@media only screen and (max-width: 958px) {
+	.entry {
+		img {
+			height: auto;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#header {
+		padding: 1.618em 0 !important;
+		#header-right {
+			#header-social {
+			margin: 0 0 0 2.854em !important;
+			}
+		}
+	}
+
+	.home .minor.flexslider .flex-direction-nav li:first-child {
+		left: 0;
+	}
+	.home .minor.flexslider .flex-direction-nav li:last-child {
+		right: 0;
+	}
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+
+  .home .minor.flexslider .flex-direction-nav li:first-child {
+    left: -4.2em;
+  }
+  .home .minor.flexslider .flex-direction-nav li:last-child {
+    right: -4.2em;
+  }
+
+}

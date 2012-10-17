@@ -1,0 +1,30 @@
+*** PixelPress Changelog ***
+
+2012.09.05 - version 1.0.5
+ * loop-portfolio.php - fixed Portfolio title on post type archive page
+ * style.css - fixed broken less styling
+ 
+2012.08.20 - version 1.0.4
+ * /includes/theme-options.php - Reorganized homepage-related options.
+
+2012.08.06 - version 1.0.3
+ * style.css - Fixed Portfolio alignment issues.
+ * layout.css - Fixed Portfolio alignment issues.
+ * theme-options.php - Removed "Enable Content Area" option. This related to the "Blog" area.
+ * single-portfolio.php - Removed a stray bracket.
+
+2012.07.31 - version 1.0.2
+ * images/ico-subscribe-social.png - Updated Twitter Icon
+ * images/twitter.png - Delete (not used)
+
+2012.07.20 - version 1.0.1
+ * header.php - Added conditional so the slider can be disabled from the Theme Options panel.
+ * images/header-social/delicious.png - *ADDED* icon was missing.
+ * style.less - Numerous CSS fixes to fix overflow issues in the header and with the Feedback and Portfolio sliders.
+ * layout.less - Numerous CSS fixes to fix overflow issues in the header and with the Feedback and Portfolio sliders.
+ * includes/homepage-mini-features.php - Added 'special' class to add some padding when there are more than 3 items.
+ * template-portfolio.php - fixed template name from 'Full Width' to 'Portfolio'.
+ * includes/homepage-blog-alt.php - *ADDED* added alternative blog layout.
+	
+2012.07.17 - version 1.0
+ * First release!
