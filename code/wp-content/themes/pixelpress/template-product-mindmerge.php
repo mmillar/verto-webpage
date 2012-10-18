@@ -1,7 +1,6 @@
 <?php
 /**
- * Template Name: MindMergels
-
+ * Template Name: MindMerge
  *
  * The blog page template displays the "blog-style" template on a sub-page. 
  *
@@ -37,7 +36,7 @@
 		<?php woo_loop_before(); 
         $array = wp_get_attachment_image_src();?>
         <div class="product-logo">
-            <img src= "/verto-webpage/code/wp-content/uploads/2012/10/products_mindmerge.png">
+            <img src= "../../wp-content/uploads/2012/10/products_mindmerge.png">
         </div>
         <div class ="product-desc">
             <div class= "product-about-title">
@@ -65,24 +64,24 @@
             <ul class = "product-features-numbered">
                 <li class = "mmproduct1">
         
-                <img src="/verto-webpage/code/wp-content/uploads/2012/10/Products_MM_Circle1.png">  <p> Features </p>
+                <img src="../..//wp-content/uploads/2012/10/Products_MM_Circle1.png">  <p> Features </p>
             Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit.
                      Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                 
                 <li class = "mmproduct2">
-                    <img src ="/verto-webpage/code/wp-content/uploads/2012/10/Products_MM_Circle2.png"><p> Features </p>
+                    <img src ="../../wp-content/uploads/2012/10/Products_MM_Circle2.png"><p> Features </p>
                 Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit.
                      Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
 
                 <li class = "mmproduct3">
-                    <img src = "/verto-webpage/code/wp-content/uploads/2012/10/Products_MM_Circle3.png"><p> Features </p>
+                    <img src = "../../wp-content/uploads/2012/10/Products_MM_Circle3.png"><p> Features </p>
                 Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit.
                      Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
 
-                <li class = "mmproduct4"><img src="/verto-webpage/code/wp-content/uploads/2012/10/Products_MM_Circle4.png"><p> Features </p>
+                <li class = "mmproduct4"><img src="../../wp-content/uploads/2012/10/Products_MM_Circle4.png"><p> Features </p>
                 Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit.
                      Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
