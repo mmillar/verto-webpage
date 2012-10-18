@@ -48,7 +48,7 @@
 
 		<header id="header" class="col-full">
 		
-			<div id="logo" class="fl">
+			<div id="logo" class="fl" style="">
 				<?php
 				    $logo = get_template_directory_uri() . '/images/logo.png';
 				    if ( isset( $woo_options['woo_logo'] ) && $woo_options['woo_logo'] != '' ) { $logo = $woo_options['woo_logo']; }
@@ -71,6 +71,12 @@
 	        <?php woo_nav_before(); ?>
 	
 	        <div id="header-right" class="fr">
+				<nav id="top-nav">
+					<span style="float:right; margin-bottom: 0; padding: 0;">
+						<?php include (TEMPLATEPATH . '/search-form.php'); ?>
+					</span>
+					<span style="float:right; margin-bottom: 0; padding: 0 20px 0;"><a href="http://support.verto.ca" target="_blank">Login</a></span>
+				</nav>
 
 				<?php
 					if ( isset($woo_options['woo_header_social']) && $woo_options['woo_header_social'] == 'true' ) 
@@ -90,6 +96,7 @@
 						<?php wp_list_pages( 'sort_column=menu_order&depth=6&title_li=&exclude=' ); ?>
 					</ul><!-- /#nav -->
 			        <?php } ?>
+
 			      
 				</nav><!-- /#navigation -->			
 

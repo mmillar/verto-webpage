@@ -14,6 +14,60 @@ GLOBAL STYLES
 ----------------
 Add styles beneath this line that you want to be applied across your entire site */
 
+#header {
+	width: 1024px;
+	height: 120px;
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-size: 18px; 
+	color: #5d5d5d;
+	padding: 0 0 1.618em;
+	clear: both;
+	position: relative;
+}
+
+#header #logo {
+    float: left;
+    margin: 1em 2em 0 0;
+    padding-right: 2.244em;
+}
+
+#header-wrap {
+	box-shadow: 0 1px 1px 1px rgb(217, 217, 217);
+  	-webkit-box-shadow: 0 1px 1px 1px rgb(217, 217, 217);
+  	-moz-box-shadow: 0 1px 1px 1px rgb(217, 217, 217);
+  	-o-box-shadow: 0 1px 1px 1px rgb(217, 217, 217);
+}
+
+#navigation {
+    display: block !important;
+    clear: none;
+    float: left;
+    padding: 0;
+    padding-right: 30px;
+}
+
+.current_page_item {
+	border-bottom: 2px #02a3e6 solid;
+}
+
+hr.separator {
+	height: 0.25em;
+	color: #dfdfdf;
+}
+
+#footer {
+	width: 1024px;
+	height: 120px;
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	color: #5d5d5d;
+}
+
+#footer #info {
+	text-align: center;
+} 
 
 /* 
 DESKTOP STYLES

@@ -44,25 +44,24 @@
 
 	<?php } // End IF Statement ?>
 		<footer id="footer" class="col-full">
+
+			<hr class="separator" />
 	
-			<div id="copyright" class="col-left">
-			<?php if( isset( $woo_options['woo_footer_left'] ) && $woo_options['woo_footer_left'] == 'true' ) {
-	
-					echo stripslashes( $woo_options['woo_footer_left_text'] );
-	
-			} else { ?>
-				<p><?php bloginfo(); ?> &copy; <?php echo date( 'Y' ); ?>. <?php _e( 'All Rights Reserved.', 'woothemes' ); ?></p>
-			<?php } ?>
-			</div>
-	
-			<div id="credit" class="col-right">
-	        <?php if( isset( $woo_options['woo_footer_right'] ) && $woo_options['woo_footer_right'] == 'true' ) {
-	
-	        	echo stripslashes( $woo_options['woo_footer_right_text'] );
-	
-			} else { ?>
-				<p><?php _e( 'Powered by', 'woothemes' ); ?> <a href="http://www.wordpress.org">WordPress</a>. <?php _e( 'Designed by', 'woothemes' ); ?> <a href="<?php echo ( isset( $woo_options['woo_footer_aff_link'] ) && ! empty( $woo_options['woo_footer_aff_link'] ) ? esc_url( $woo_options['woo_footer_aff_link'] ) : 'http://www.woothemes.com' ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/woothemes.png" width="74" height="19" alt="Woo Themes" /></a></p>
-			<?php } ?>
+			<div id="info">
+				<table cellpadding="0" cellspacing="0" style="width:80%; margin-left: auto; margin-right: auto; border-collapse: collapse;"><tr>
+					<td><img src="<?php bloginfo('template_directory');?>/images/logo-small.png" width="75" alt="Verto" style="padding-right: 5px;" /> &copy; 2012</td>
+					<td>|</td>
+					<td>Suite 1903, 59 East Liberty St, Toronto, ON</td>
+					<td>|</td>
+					<td>P: 416.516.5050</td>
+					<td>|</td>
+					<td>F: 416.516.7575</td>
+					<td>|</td>
+					<td><span style="padding-right: 5px;">Connect with us: </span>
+						<a href="http://www.facebook.com"><img src="<?php bloginfo('template_directory');?>/images/ico-facebook.png" alt="Facebook"/></a> 
+						<a href="http://www.twitter.com"><img src="<?php bloginfo('template_directory');?>/images/ico-twitter.png" alt="Twitter"/></a>
+					</td>
+				</tr></table>
 			</div>
 	
 		</footer><!-- /#footer  -->
