@@ -23,3 +23,213 @@ Add styles inside the media query below that you only want to be applied to the 
 @media only screen and (min-width: 768px) {
 	/* Desktop styles go here */
 }
+
+.product_main {
+ list-style-type: none;
+	padding-bottom: 10px;
+	width:1024px;
+}
+
+
+body {
+	background: white;
+	line-height: inherit;
+	list-style-type: none;
+}
+
+.product-logo{
+	width:477px;
+	float: left;
+	margin-top: 50px;
+}
+
+.product-about-title{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 20pt;
+	color: #ffffff;
+}
+
+.product-about-title p{
+ text-shadow: 1px 1px 1px #000;
+ margin-bottom: 0px;
+ padding: 10px;
+}
+.line-separator{
+
+height:1.5px;
+
+background:#3e5367;
+
+border-bottom:1.5px solid #94a8bd;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+.feature-title {
+	font-family:Calibri;
+	font-weight: bold;
+	font-size: 20pt;
+	color: #3e5166;
+	padding-bottom: 10px;
+
+}
+
+
+
+.mmproduct4 {
+	width:240px;
+	margin-right: 5px;
+	padding-right: 5px;
+	padding-left:10px !important;
+	float: left;
+	display: inline; border-left: 1px solid; padding-left: 0.3em;
+padding-top: 3px;
+	color:black;
+}
+
+.mmproduct4 img{
+	float: left;
+}
+.mmproduct2 img{
+	float: left;
+}
+.mmproduct3 img{
+	float: left;
+}
+.mmproduct1 img{
+	float: left;
+}
+
+.mmproduct1 p{
+			font-family: Calibri;
+	font-weight: bold;
+	font-size: 25px;
+	color: #516c86;
+	padding-top: 17px;
+	padding-left: 72px;
+
+}
+.mmproduct2 p{
+			font-family: Calibri;
+	font-weight: bold;
+	font-size: 25px;
+		padding-top: 17px;
+padding-left: 72px;
+	color: #528387;
+}
+.mmproduct3 p{
+			font-family: Calibri;
+	font-weight: bold;
+	padding-top: 17px;
+padding-left: 72px;
+	font-size: 25px;
+	color: #528771;
+}
+.mmproduct4 p{
+			font-family: Calibri;
+	font-weight: bold;
+	font-size: 25px;
+		padding-top: 17px;
+	color: #528763;
+	padding-left: 72px;
+
+}
+
+.mmproduct2 {
+	width:240px;
+	margin-right: 5px;
+
+	padding-top: 3px;
+	float: left;
+
+		padding-left:10px !important;
+		color:black;
+	display: inline; border-left: 1px solid; padding-left: 0.3em;
+
+}
+.mmproduct3 {
+	width:240px;
+	margin-right: 5px;
+
+	padding-top: 3px;
+	float: left;
+		padding-left:10px !important;
+	color:black;
+	display: inline; border-left: 1px solid; padding-left: 0.3em;
+
+}
+
+.mmproduct1 {
+	width:240px;
+	margin-right: 5px;
+	padding-top: 3px;
+
+
+	float: left;
+		color:black;
+}
+ul{
+	list-style-type: none;
+}
+#product-features{
+	height: 180px;
+}
+
+.dotted-line{
+	height:2px;
+	border-bottom: 2px dotted #d3d3d3;
+	width:1000px;
+}
+
+.product-features-numbered img{
+ padding-top: 10px;
+ margin-left: 20px;
+}
+
+.product-features-numbered {
+	width:1024px;
+}
+
+.product-logo img{
+	padding-top:20px;
+	width:450px;
+}
+
+
+.product-about{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12pt;
+	color: #ffffff;
+
+}
+
+
+.product-about p{
+ text-shadow: 1px 1px 1px #000;
+ padding: 10px;
+
+}
+
+.product-desc {
+	border-radius: 15px;
+	height: 255px;
+	width:547px;
+	margin-left: 477px;
+background-image: linear-gradient(top, #748752 30%, #58663e 65%);
+background-image: -o-linear-gradient(top, #748752 30%, #58663e 65%);
+background-image: -moz-linear-gradient(top, #748752 30%, #58663e 65%);
+background-image: -webkit-linear-gradient(top, #748752 30%, #58663e 65%);
+background-image: -ms-linear-gradient(top, #748752 30%, #58663e 65%);
+
+background-image: -webkit-gradient(
+	linear,
+		left top,
+	left bottom,
+
+	color-stop(0.40, #526b87),
+	color-stop(0.60, #3e5166)
+);
+
+}
