@@ -42,7 +42,7 @@
 			<div class ="main-features">
 				<div class = "three-features">
 					<ul class ="listoffeatures">
-						<li class ="healthcare">Text</li>
+						<li class ="healthcare"></li>
 						<li class ="workforce"></li>
 						<li class ="site"></li>
 					</ul>
