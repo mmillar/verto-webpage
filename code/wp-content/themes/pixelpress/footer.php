@@ -45,11 +45,11 @@
 	<?php } // End IF Statement ?>
 		<footer id="footer" class="col-full">
 
-			<hr class="separator" />
+			<hr class="footer" />
 	
 			<div id="info">
-				<table cellpadding="0" cellspacing="0" style="width:80%; margin-left: auto; margin-right: auto; border-collapse: collapse;"><tr>
-					<td><img src="<?php bloginfo('template_directory');?>/images/logo-small.png" width="75" alt="Verto" style="padding-right: 5px;" /> &copy; 2012</td>
+				<table cellpadding="0" cellspacing="0"><tr>
+					<td><img src="<?php bloginfo('template_directory');?>/images/logo-small.png" width="75" alt="Verto" class="image-padding" /> &copy; 2012</td>
 					<td>|</td>
 					<td>Suite 1903, 59 East Liberty St, Toronto, ON</td>
 					<td>|</td>
@@ -57,7 +57,7 @@
 					<td>|</td>
 					<td>F: 416.516.7575</td>
 					<td>|</td>
-					<td><span style="padding-right: 5px;">Connect with us: </span>
+					<td><span class="image-padding">Connect with us: </span>
 						<a href="http://www.facebook.com"><img src="<?php bloginfo('template_directory');?>/images/ico-facebook.png" alt="Facebook"/></a> 
 						<a href="http://www.twitter.com"><img src="<?php bloginfo('template_directory');?>/images/ico-twitter.png" alt="Twitter"/></a>
 					</td>

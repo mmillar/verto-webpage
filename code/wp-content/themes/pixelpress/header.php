@@ -48,7 +48,7 @@
 
 		<header id="header" class="col-full">
 		
-			<div id="logo" class="fl" style="">
+			<div id="logo" class="fl">
 				<?php
 				    $logo = get_template_directory_uri() . '/images/logo.png';
 				    if ( isset( $woo_options['woo_logo'] ) && $woo_options['woo_logo'] != '' ) { $logo = $woo_options['woo_logo']; }
@@ -72,10 +72,8 @@
 	
 	        <div id="header-right" class="fr">
 				<nav id="top-nav">
-					<span style="float:right; margin-bottom: 0; padding: 0;">
-						<?php include (TEMPLATEPATH . '/search-form.php'); ?>
-					</span>
-					<span style="float:right; margin-bottom: 0; padding: 0 20px 0;"><a href="http://support.verto.ca" target="_blank">Login</a></span>
+					<span id="search"><?php include (TEMPLATEPATH . '/search-form.php'); ?></span>
+					<span id="login"><a href="http://support.verto.ca" target="_blank">Login</a></span>
 				</nav>
 
 				<?php

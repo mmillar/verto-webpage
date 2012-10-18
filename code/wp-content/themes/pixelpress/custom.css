@@ -39,6 +39,18 @@ Add styles beneath this line that you want to be applied across your entire site
   	-o-box-shadow: 0 1px 1px 1px rgb(217, 217, 217);
 }
 
+#header-right #top-nav #search {
+	float:right;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+#header-right #top-nav #login {
+	float:right;
+	margin-bottom: 0;
+	padding: 0 20px 0;
+}
+
 #navigation {
     display: block !important;
     clear: none;
@@ -51,9 +63,95 @@ Add styles beneath this line that you want to be applied across your entire site
 	border-bottom: 2px #02a3e6 solid;
 }
 
-hr.separator {
-	height: 0.25em;
+table.verto tr {
+	cellpadding: 10px;
+}
+
+table.verto tr td {
+	vertical-align: middle;
+}
+
+table.verto tr td #verto-title {
+	font-family: Calibri, sans-serif;
+	font-style: italic;
+	font-size: 67px;
+	color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 25px;
+}
+
+table.verto tr td #verto-summary #name {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+table.verto tr td #verto-summary {
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	color: #666666;
+}
+
+table.verto tr td #black-text {
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #5d5d5d;
+	text-decoration: none;
+	border-bottom: 2px #d3d3d3 dotted;
+}
+
+table.verto tr td #blue-text {
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #1050a2;
+	text-decoration: none;
+	border-bottom: 2px #d3d3d3 dotted;
+}
+
+table.verto tr td #name {
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+}
+
+table.verto tr td #position {
+	font-family: Calibri, sans-serif;
+	font-weight: regular;
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+}
+
+table.verto tr td.left {
+	padding-right: 15px;
+}
+
+table.verto tr td.right {
+	padding-left: 15px;
+}
+
+table.verto tr td #separator-dark {
+	height: 2px;
+	border-bottom: 2px #dcdcdc solid;
+}
+
+.separator #light {
+	height: 2px;
+	color: #fdfdfd;
+}
+
+hr.footer {
+	height: 2px;
 	color: #dfdfdf;
+}
+
+.image-padding {
+	padding-right: 5px;
 }
 
 #footer {
@@ -67,6 +165,13 @@ hr.separator {
 
 #footer #info {
 	text-align: center;
+}
+
+#footer #info table {
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
 } 
 
 /* 
