@@ -74,6 +74,60 @@ DESKTOP STYLES
 -----------------
 Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
 
+
+.main-banner {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+	height:602px;
+	background-image:url('/verto-webpage/code/wp-content/uploads/2012/10/Index_MM_Banner.png');
+
+
+}
+.mindmerge-desc .moreinfolink a{
+	color:#2bc7e5;
+
+
+}
+.mindmerge-desc .moreinfolink .greenarrow{
+	color: #63af33;
+	
+
+}
+
+.main-features{
+	width: 1024px;
+	height:315px;
+}
+
+.mindmerge-desc{
+	text-align: center;
+	vertical-align: center;
+	padding-top:282px;
+	margin-left: 150px;
+}
+
+.mindmerge-desc .mm-header{
+	font-family: Calibri;
+	font-style: italic;
+	font-size: 38px;
+	float:left;
+	margin-left:260px;
+	color:#2bc7e5;
+}
+.mindmerge-desc .mm-afterheader{
+	font-family: Calibri;
+	font-style: italic;
+	width:800px;
+	padding-top:5px;
+	font-size: 36px;
+
+	color:#63af33;
+}
+
+
+
 @media only screen and (min-width: 768px) {
 	/* Desktop styles go here */
 }
@@ -88,7 +142,6 @@ Add styles inside the media query below that you only want to be applied to the 
 body {
 	background: white;
 	line-height: inherit;
-	list-style-type: none;
 }
 
 .product-logo{
@@ -226,6 +279,8 @@ padding-left: 72px;
 ul{
 	list-style-type: none;
 }
+
+
 #product-features{
 	height: 180px;
 }
