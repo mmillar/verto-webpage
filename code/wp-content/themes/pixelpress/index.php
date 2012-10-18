@@ -34,24 +34,6 @@
 
 		<section id="main" class="fullwidth">
 
-			<?php
-				if ( ! dynamic_sidebar( 'homepage' ) ) {
-
-					// Output the Features Area	
-					if ( ( $paged == 1 ) && $settings['features_area'] == 'true' ) { get_template_part( 'includes/homepage-mini-features' ); } 
-
-					// Output the Blog Area	
-					if ( ( $paged == 1 ) && $settings['portfolio_area'] == 'true') { get_template_part( 'includes/homepage-portfolio' ); } 
-				
-					// Output the Blog Area	
-					if ( ( $paged == 1 ) && $settings['blog_area'] == 'true' ) { get_template_part( 'includes/homepage-blog' ); } 
-
-					// Output the Feedback Area	
-					if ( ( $paged == 1 ) && $settings['feedback_area'] == 'true' ) { get_template_part( 'includes/homepage-feedback' ); } 
-				
-				}
-			?>
-
 		</section><!-- /#main -->
 		
 		<?php woo_main_after(); ?>
