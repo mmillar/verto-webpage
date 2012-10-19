@@ -17,7 +17,7 @@
         <table class="verto"><tr><td colspan="2" height="250" background="<?php bloginfo('template_directory');?>/images/verto-banner-1024x250.png"><div id="verto-title">Technology Empowering People</div></td></tr></table>
 
         <div class="verto-summary">
-	        <span id="name">Verto,</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et sodales eros. Nunc aliquet, nunc quis adipiscing tempor, justo justo rhoncus dolor, vel tempor quam velit vel nisl. Donec pulvinar, orci quis eleifend hendrerit, sem eros adipiscing mauris, eget egestas dui arcu dapibus felis. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio nisl, bibendum in volutpat non, pellentesque venenatis libero. Nam fringilla congue libero, eu pellentesque ligula pretium sed. Aenean ultricies, tortor ac molestie laoreet, tortor leo dapibus sapien, id iaculis turpis mi sed velit. Duis ligula tortor, laoreet ac ultricies ut, convallis sed dui.<br /><br />
+	        <span id="verto-summary-name">Verto,</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et sodales eros. Nunc aliquet, nunc quis adipiscing tempor, justo justo rhoncus dolor, vel tempor quam velit vel nisl. Donec pulvinar, orci quis eleifend hendrerit, sem eros adipiscing mauris, eget egestas dui arcu dapibus felis. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio nisl, bibendum in volutpat non, pellentesque venenatis libero. Nam fringilla congue libero, eu pellentesque ligula pretium sed. Aenean ultricies, tortor ac molestie laoreet, tortor leo dapibus sapien, id iaculis turpis mi sed velit. Duis ligula tortor, laoreet ac ultricies ut, convallis sed dui.<br /><br />
 
 Pellentesque in feugiat elit. Vivamus ligula purus, consectetur eget ultrices id, commodo eget enim. Donec nec augue et ipsum interdum viverra. Ut at tortor non augue convallis tempor. Suspendisse potenti. Donec vitae viverra justo. Nam vel arcu eget dolor pharetra commodo et sed felis. Quisque urna magna, vehicula quis sodales et, aliquet eu arcu. Sed eleifend neque quis tellus facilisis interdum. Cras eget urna ut purus cursus accumsan sit amet sed augue. Etiam in mattis ante.<br /><br />
 
@@ -26,13 +26,13 @@ Duis eu elit lectus. Donec aliquam, sapien id posuere pellentesque, metus turpis
 
         <div class="verto-our-team">
             <div><span id="black-text">Our </span><span id="blue-text">Team</span></div><br />
-            <div id="team">
+            <div id="verto-our-team-main">
                 <span id="left-arrow"><img src="<?php bloginfo('template_directory');?>/images/ico-arrow-left.png" /></span>
                 <span id="pictures">[Picture 1] [Picture 2] [Picture 3] [Picture 4] [Picture 5]</span>
                 <span id="right-arrow"><img src="<?php bloginfo('template_directory');?>/images/ico-arrow-right.png" /></span>
             </div>
-            <div id="name">Verto Support</div> 
-            <div id="position">Tacos</div>
+            <div id="verto-our-team-name">Verto Support</div> 
+            <div id="verto-our-team-position">Tacos</div>
         </div>
 
         <div class="separator-dark"></div>
@@ -40,7 +40,7 @@ Duis eu elit lectus. Donec aliquam, sapien id posuere pellentesque, metus turpis
         <div class="verto-our-vision">
         	<div><span id="black-text">Our </span><span id="blue-text">Vision</span></div><br />
         	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-            <div id="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
+            <div id="verto-our-vision-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
             <div>Proin volutpat nisl vel enim congue id fringilla est vestibulum. Donec pretium mollis hendrerit. Nullam nec felis eget velit laoreet sollicitudin luctus ut enim. Cras elit nisi, posuere vitae tincidunt id, posuere ac dolor.</div>
             <div><ul>
                 <li><b>Lorem ipsum dolor sit amet,</b> consectetur adipiscing elit.</li>

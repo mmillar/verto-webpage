@@ -63,6 +63,132 @@ Add styles beneath this line that you want to be applied across your entire site
 	border-bottom: 2px #02a3e6 solid;
 }
 
+.product-desc#rightpath {
+	border-radius: 15px;
+	width: 547px;
+	height: 255px;
+	margin-left: 477px;
+	background-image: linear-gradient(top, #748752 30%, #58663e 65%);
+	background-image: -o-linear-gradient(top, #748752 30%, #58663e 65%);
+	background-image: -moz-linear-gradient(top, #748752 30%, #58663e 65%);
+	background-image: -webkit-linear-gradient(top, #748752 30%, #58663e 65%);
+	background-image: -ms-linear-gradient(top, #748752 30%, #58663e 65%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.40, #748752),
+		color-stop(0.60, #58663e)
+	);
+}
+
+.feature-title#rightpath {
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 30px;
+	color: #44630c;
+	padding-bottom: 10px;
+}
+
+.rpproduct1 {
+	width: 240px;
+	margin-right: 5px;
+	padding-top: 3px;
+	float: left;
+	color: black;
+}
+
+.rpproduct1 img {
+	float: left;
+}
+
+.rpproduct1 p {
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #738651;
+	padding-top: 17px;
+	padding-left: 72px;
+}
+
+.rpproduct2 {
+	width: 240px;
+	margin-right: 5px;
+	padding-left: 10px !important;
+	padding-top: 3px;
+	float: left;
+	color: black;
+	display: inline;
+	border-left: 1px solid;
+	padding-left: 0.3em;
+}
+
+.rpproduct2 img {
+	float: left;
+}
+
+.rpproduct2 p {
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 25px;
+	color: #518667;
+	padding-top: 17px;
+	padding-left: 72px;
+}
+
+.rpproduct3 {
+	width: 240px;
+	margin-right: 5px;
+	padding-left: 10px !important;
+	padding-top: 3px;
+	float: left;
+	color: black;
+	display: inline;
+	border-left: 1px solid;
+	padding-left: 0.3em;
+}
+
+.rpproduct3 img {
+	float: left;
+}
+
+.rpproduct3 p {
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 25px;
+	color: #518680;
+	padding-top: 17px;
+	padding-left: 72px;
+}
+
+.rpproduct4 {
+	width: 240px;
+	margin-right: 5px;
+	padding-right: 5px;
+	padding-left: 10px !important;
+	padding-top: 3px;
+	float: left;
+	color: black;
+	display: inline;
+	border-left: 1px solid;
+	padding-left: 0.3em;
+}
+
+.rpproduct4 img {
+	float: left;
+}
+
+.rpproduct4 p {
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 25px;
+	color: #516c86;
+	padding-top: 17px;
+	padding-left: 72px;
+
+}
+
 table.verto {
 	margin-bottom: 20px;
 }
@@ -77,12 +203,12 @@ table.verto tr td {
 	font-size: 67px;
 	color: #FFF;
 	text-align: center;
-	text-shadow: 2px 2px 2px #666666;
+	text-shadow: 1px 1px 1px #000;
 	vertical-align: middle;
 	padding-bottom: 25px;
 }
 
-.verto-summary #name {
+#verto-summary-name {
 	font-size: 48px;
 	font-weight: bold;
 }
@@ -117,24 +243,24 @@ table.verto tr td {
 	border-bottom: 2px #d3d3d3 dotted;
 }
 
-.verto-our-team #team {
+#verto-our-team-main {
 	text-align: center;
 	margin: 10px 0 10px;
 }
 
-.verto-our-team #team #left-arrow {
+#left-arrow {
 	float: left;
 }
 
-.verto-our-team #team #pictures {
+#pictures {
 	clear: both;
 }
 
-.verto-our-team #team #right-arrow {
+#right-arrow {
 	float: right;
 }
 
-.verto-our-team #name {
+#verto-our-team-name {
 	font-family: Calibri, sans-serif;
 	font-weight: bold;
 	font-size: 14px;
@@ -142,7 +268,7 @@ table.verto tr td {
 	text-align: center;
 }
 
-.verto-our-team #position {
+#verto-our-team-position {
 	font-family: Calibri, sans-serif;
 	font-weight: regular;
 	font-size: 14px;
@@ -156,7 +282,7 @@ table.verto tr td {
 	margin-bottom: 20px;
 }
 
-.verto-our-vision #quote {
+#verto-our-vision-quote {
 	font-weight: bold;
 	padding: 20px 10px 20px;
 }
@@ -210,11 +336,11 @@ hr.footer {
 	color: #5d5d5d;
 }
 
-#footer #info {
+#footer-info {
 	text-align: center;
 }
 
-#footer #info table {
+#footer-info table {
 	width:80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -305,7 +431,7 @@ body {
 .product-about-title{
 	font-family: Calibri;
 	font-weight: bold;
-	font-size: 20pt;
+	font-size: 30px;
 	color: #ffffff;
 }
 
@@ -328,7 +454,7 @@ margin-left: 10px;
 .feature-title {
 	font-family:Calibri;
 	font-weight: bold;
-	font-size: 20pt;
+	font-size: 30px;
 	color: #3e5166;
 	padding-bottom: 10px;
 
@@ -461,8 +587,8 @@ ul{
 .product-about{
 	font-family: Calibri;
 	font-weight: bold;
-	font-size: 12pt;
-	color: #ffffff;
+	font-size: 16px;
+	color: #FFF;
 
 }
 

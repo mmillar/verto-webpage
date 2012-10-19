@@ -47,7 +47,7 @@
 
 			<hr class="footer" />
 	
-			<div id="info">
+			<div id="footer-info">
 				<table cellpadding="0" cellspacing="0"><tr>
 					<td><img src="<?php bloginfo('template_directory');?>/images/logo-small.png" width="75" alt="Verto" class="image-padding" /> &copy; 2012</td>
 					<td>|</td>
