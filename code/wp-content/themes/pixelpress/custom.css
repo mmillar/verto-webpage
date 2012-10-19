@@ -63,37 +63,43 @@ Add styles beneath this line that you want to be applied across your entire site
 	border-bottom: 2px #02a3e6 solid;
 }
 
-table.verto tr {
-	cellpadding: 10px;
+table.verto {
+	margin-bottom: 20px;
 }
 
 table.verto tr td {
 	vertical-align: middle;
 }
 
-table.verto tr td #verto-title {
+#verto-title {
 	font-family: Calibri, sans-serif;
 	font-style: italic;
 	font-size: 67px;
 	color: #FFF;
 	text-align: center;
+	text-shadow: 2px 2px 2px #666666;
 	vertical-align: middle;
-	margin-bottom: 25px;
+	padding-bottom: 25px;
 }
 
-table.verto tr td #verto-summary #name {
+.verto-summary #name {
 	font-size: 48px;
 	font-weight: bold;
 }
 
-table.verto tr td #verto-summary {
+.verto-summary {
 	font-family: Calibri, sans-serif;
 	font-style: normal;
 	font-size: 14px;
 	color: #666666;
+	margin-bottom: 20px;
 }
 
-table.verto tr td #black-text {
+.verto-our-team {
+	margin-bottom: 20px;
+}
+
+#black-text {
 	font-family: Calibri, sans-serif;
 	font-weight: bold;
 	font-size: 24px;
@@ -102,7 +108,7 @@ table.verto tr td #black-text {
 	border-bottom: 2px #d3d3d3 dotted;
 }
 
-table.verto tr td #blue-text {
+#blue-text {
 	font-family: Calibri, sans-serif;
 	font-weight: bold;
 	font-size: 24px;
@@ -111,7 +117,24 @@ table.verto tr td #blue-text {
 	border-bottom: 2px #d3d3d3 dotted;
 }
 
-table.verto tr td #name {
+.verto-our-team #team {
+	text-align: center;
+	margin: 10px 0 10px;
+}
+
+.verto-our-team #team #left-arrow {
+	float: left;
+}
+
+.verto-our-team #team #pictures {
+	clear: both;
+}
+
+.verto-our-team #team #right-arrow {
+	float: right;
+}
+
+.verto-our-team #name {
 	font-family: Calibri, sans-serif;
 	font-weight: bold;
 	font-size: 14px;
@@ -119,7 +142,7 @@ table.verto tr td #name {
 	text-align: center;
 }
 
-table.verto tr td #position {
+.verto-our-team #position {
 	font-family: Calibri, sans-serif;
 	font-weight: regular;
 	font-size: 14px;
@@ -127,22 +150,46 @@ table.verto tr td #position {
 	text-align: center;
 }
 
-table.verto tr td.left {
-	padding-right: 15px;
+.verto-our-vision {
+	width: 47%;
+	float: left;
+	margin-bottom: 20px;
 }
 
-table.verto tr td.right {
-	padding-left: 15px;
+.verto-our-vision #quote {
+	font-weight: bold;
+	padding: 20px 10px 20px;
 }
 
-table.verto tr td #separator-dark {
+.verto-our-vision ul {
+	list-style: disc;
+	padding: 10px 20px 10px;
+}
+
+.verto-our-vision li {
+	padding: 3px 0 3px;
+}
+
+.verto-our-benefits {
+	width: 47%;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.verto-our-benefits ul {
+	list-style: disc;
+	padding: 20px;
+}
+
+.verto-our-benefits li {
+	padding: 3px 0 3px;
+	font-weight: bold;
+}
+
+.separator-dark {
 	height: 2px;
 	border-bottom: 2px #dcdcdc solid;
-}
-
-.separator #light {
-	height: 2px;
-	color: #fdfdfd;
+	margin-bottom: 20px;
 }
 
 hr.footer {
