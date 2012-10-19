@@ -64,7 +64,7 @@
             <ul class = "product-features-numbered">
                 <li class = "mmproduct1">
         
-                <img src="../..//wp-content/uploads/2012/10/Products_MM_Circle1.png">  <p> Features </p>
+                <img src="../../wp-content/uploads/2012/10/Products_MM_Circle1.png">  <p> Features </p>
             Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit.
                      Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>

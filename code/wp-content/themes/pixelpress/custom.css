@@ -261,6 +261,132 @@ Add styles inside the media query below that you only want to be applied to the 
 .main-features{
 	width: 1024px;
 	height:315px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 40px;
+
+}
+
+.listoffeatures a{
+	font-family:Calibri; 
+	font-weight: Regular;
+	font-size: 14pt;
+	color:	#1050a2;
+}
+
+.healthcare {
+	float:left;
+	width:330px;
+	margin-left: 30px;
+
+}
+.healthcare img{
+	float:left;
+}
+
+.healthcare #blue-text{
+	padding-bottom: 10px;
+}
+
+.healthcare #black-text{
+	padding-bottom: 10px;
+}
+
+.workforce {
+	float:left;
+	width:330px;
+
+}
+.workforce img{
+	float:left;
+}
+
+.workforce #blue-text{
+	padding-bottom: 10px;
+}
+
+.workforce #black-text{
+	padding-bottom: 10px;
+}
+
+.site {
+	float:left;
+	width:330px;
+
+}
+.site img{
+	float:left;
+}
+
+.site #blue-text{
+	padding-bottom: 10px;
+}
+
+.site #black-text{
+	padding-bottom: 10px;
+}
+
+
+.index-title{
+	padding-top: 25px;
+	margin-left: 120px;
+}
+.index-text{
+	padding-top: 25px;
+	margin-left: 120px;
+}
+
+.workforce {
+	float:left;
+
+}
+.site {
+	float:left;
+
+}
+
+.main-clients{
+	width:1024px;
+
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom:1.5px solid #fdfdfd;
+
+}
+.client-images{
+	margin-right: 150px;
+	margin-left: 150px;
+}
+
+.client-images .line-separator{
+
+	height:1.5px;
+
+background:#dcdcdc;
+
+border-bottom:1.5px solid #fdfdfd;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+
+
+.clientlogos{
+	float:left;
+	width: 205px;
+ height: 129px;
+}
+
+.client-images img{
+	float:left;
+
+}
+
+.clients-title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left:40px;
 }
 
 .mindmerge-desc{
