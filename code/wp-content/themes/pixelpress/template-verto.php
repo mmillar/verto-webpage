@@ -61,11 +61,9 @@ Duis eu elit lectus. Donec aliquam, sapien id posuere pellentesque, metus turpis
             </ul></div>
         </div>
 
-        <!-- START Temporary Fix -->
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <!-- END Temporary Fix -->
 
-        <div class="separator-dark"></div>
+
+        <div class="separator-dark-padding"></div>
 
 		</section><!-- /#main -->
 		

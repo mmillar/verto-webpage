@@ -192,6 +192,16 @@ table.verto tr td {
 	margin-bottom: 20px;
 }
 
+.separator-dark-padding{
+		height: 2px;
+	border-bottom: 2px #dcdcdc solid;
+	margin-bottom: 20px;
+	padding-top: 300px;
+}
+
+
+}
+
 hr.footer {
 	height: 2px;
 	color: #dfdfdf;
