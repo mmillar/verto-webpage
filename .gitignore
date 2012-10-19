@@ -1,4 +1,4 @@
 code/.htaccess
-code/.DS_Store
 .DS_Store
+*/.DS_Store
 code/wp-config.php

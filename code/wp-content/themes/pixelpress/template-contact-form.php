@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Contact
+ * Template Name: Contact Form
  *
  * The contact form page template displays the a
  * simple contact form in your website's content area.
@@ -11,45 +11,7 @@
  
 global $woo_options;
 get_header();
-
-?>
-    <div id="content" class="page col-full">
-    
-    	<?php woo_main_before(); ?>
-    	
-		<section id="main" class="fullwidth">
-
-			<table class="contact"><tr><td background="<?php bloginfo('template_directory');?>/images/contact-banner-1024x746.png">
-				<span id="contact-map"><img src="<?php bloginfo('template_directory');?>/images/contact-map.png" /></span>
-				<span id="contact-green-circle"><img src="<?php bloginfo('template_directory');?>/images/contact-green-circle.png" /></span>
-				<span id="contact-info-box">
-					<span id="contact-info-header">Headquarters</span><br />
-					Suite 1903,<br />
-					59 East Liberty St.,<br />
-					Toronto, ON<br />
-					P 416.516.5050<br />
-					F 416.516.7575
-					<br /><br />
-
-					<span id="contact-info-header">Sales</span><br />
-					sales@verto.ca
-					<br /><br />
-
-					<span id="contact-info-header">Support</span><br />
-					support@verto.ca
-					<br /><br />
-
-					<span id="contact-info-header">Direction</span><br />
-					Click to view map
-					<br /><br />
-				</span>
-			</td></tr></table>
-
-		</section><!-- /#main -->
-
-<!-- START Copied directly from template-contact-form.php (original template-contact.php) -->
-<?php
-
+ 
 $nameError = '';
 $emailError = '';
 $commentError = '';
@@ -150,7 +112,11 @@ jQuery(document).ready(function() {
 //-->!]]>
 </script>
 
-		<section id="main" class="col-full">
+    <div id="content" class="col-full">
+    	
+    	<?php woo_main_before(); ?>
+    
+		<section id="main" class="col-left">
 
             <article id="contact-page" class="page">
 
@@ -252,10 +218,11 @@ jQuery(document).ready(function() {
 
             </article><!-- /#contact-page -->
 		</section><!-- /#main -->
-<!-- END Copied directly from template-contact-form.php (original template-contact.php) -->
 		
 		<?php woo_main_after(); ?>
-		
+
+        <?php get_sidebar(); ?>
+
     </div><!-- /#content -->
-		
+
 <?php get_footer(); ?>
