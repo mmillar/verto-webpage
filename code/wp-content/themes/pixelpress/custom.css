@@ -190,6 +190,10 @@ Add styles beneath this line that you want to be applied across your entire site
 }
 
 table.verto {
+	width: 1024px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 20px;
 }
 
@@ -318,14 +322,67 @@ table.verto tr td {
 	margin-bottom: 20px;
 }
 
-.separator-dark-padding{
-		height: 2px;
+.separator-dark-padding {
+	height: 2px;
 	border-bottom: 2px #dcdcdc solid;
 	margin-bottom: 20px;
 	padding-top: 300px;
 }
 
+table.contact {
+	width: 1024px;
+	height: 746px;
+	position: relative;
+}
 
+#contact-map {
+	position: absolute;
+	top: 7%;
+	left: 10%;
+}
+
+#contact-green-circle {
+	position: absolute;
+	top: 70%;
+	left: 29%;
+}
+
+#contact-info-box {
+	position: absolute;
+	top: 8%;
+	left: 70%;
+	width: 160px;
+	height: 273px;
+	padding: 10px;
+	background-image: linear-gradient(top, #5a595a 30%, #494949 65%);
+	background-image: -o-linear-gradient(top, #5a595a 30%, #494949 65%);
+	background-image: -moz-linear-gradient(top, #5a595a 30%, #494949 65%);
+	background-image: -webkit-linear-gradient(top, #5a595a 30%, #494949 65%);
+	background-image: -ms-linear-gradient(top, #5a595a 30%, #494949 65%);
+
+	background-image: -webkit-gradient(
+	linear,
+		left top,
+	left bottom,
+
+	color-stop(0.40, #5a595a),
+	color-stop(0.60, #494949)
+	);
+
+	box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
+  	-webkit-box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
+  	-moz-box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
+  	-o-box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
+  	font-family: Calibri, sans-serif;
+  	font-style: normal;
+  	font-style: 18px;
+  	color: #FFF;
+  	text-shadow: 1px 1px 1px #000;
+}
+
+#contact-info-header {
+	font-weight: bold;
+	font-size: 24px;
 }
 
 hr.footer {

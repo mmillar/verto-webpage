@@ -14,7 +14,7 @@
     	
 		<section id="main" class="fullwidth">
 
-        <table class="verto"><tr><td colspan="2" height="250" background="<?php bloginfo('template_directory');?>/images/verto-banner-1024x250.png"><div id="verto-title">Technology Empowering People</div></td></tr></table>
+        <table class="verto"><tr><td background="<?php bloginfo('template_directory');?>/images/verto-banner-1024x250.png"><div id="verto-title">Technology Empowering People</div></td></tr></table>
 
         <div class="verto-summary">
 	        <span id="verto-summary-name">Verto,</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et sodales eros. Nunc aliquet, nunc quis adipiscing tempor, justo justo rhoncus dolor, vel tempor quam velit vel nisl. Donec pulvinar, orci quis eleifend hendrerit, sem eros adipiscing mauris, eget egestas dui arcu dapibus felis. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio nisl, bibendum in volutpat non, pellentesque venenatis libero. Nam fringilla congue libero, eu pellentesque ligula pretium sed. Aenean ultricies, tortor ac molestie laoreet, tortor leo dapibus sapien, id iaculis turpis mi sed velit. Duis ligula tortor, laoreet ac ultricies ut, convallis sed dui.<br /><br />
@@ -60,9 +60,7 @@ Duis eu elit lectus. Donec aliquam, sapien id posuere pellentesque, metus turpis
                 <li>Nullam consectetur nibh nec nunc placerat quis egestas enim auctor.</li>
             </ul></div>
         </div>
-
-
-
+        
         <div class="separator-dark-padding"></div>
 
 		</section><!-- /#main -->
