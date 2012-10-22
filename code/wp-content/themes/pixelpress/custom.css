@@ -26,7 +26,7 @@ Add styles beneath this line that you want to be applied across your entire site
 	position: relative;
 }
 
-#header #logo {
+#logo {
     float: left;
     margin: 1em 2em 0 0;
     padding-right: 2.244em;
