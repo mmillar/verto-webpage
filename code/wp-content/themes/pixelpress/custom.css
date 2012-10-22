@@ -385,6 +385,12 @@ table.contact {
 	font-size: 24px;
 }
 
+#contact-page ol.forms li input.txt,
+#contact-page ol.forms li textarea {
+  width: 100%;
+  border: 1px #666666 solid;
+}
+
 hr.footer {
 	height: 2px;
 	color: #dfdfdf;
