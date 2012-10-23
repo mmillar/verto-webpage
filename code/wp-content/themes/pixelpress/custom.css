@@ -329,11 +329,110 @@ table.verto tr td {
 	padding-top: 300px;
 }
 
+table.clients {
+	width: 1024px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+table.clients tr td {
+	vertical-align: middle;
+}
+
+#clients-title {
+	font-family: Calibri, sans-serif;
+	font-style: italic;
+	font-size: 67px;
+	color: #FFF;
+	text-align: right;
+	text-shadow: 1px 1px 1px #000;
+	vertical-align: middle;
+	padding-right: 1.25em;
+}
+
+#clients-subtitle {
+	font-family: Calibri, sans-serif;
+	font-style: italic;
+	font-size: 36px;
+	color: #FFCCFF;
+	text-align: right;
+	text-shadow: 1px 1px 1px #000;
+	vertical-align: middle;
+	padding-right: 2.5em;
+}
+
+.clients-testimonial-pictures {
+	float: left;
+	width: 37%;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 25px;
+}
+
+.clients-testimonial-text {
+	float: right;
+	width: 61%;
+	vertical-align: middle;
+}
+
+#purple-quote {
+	font-family: Arial;
+	font-style: normal;
+	font-size: 144px;
+	color: #660066;
+	width: 5%;
+	float: left;
+}
+
+#testimonial {
+	vertical-align: middle;
+	padding-bottom: 50px;
+	width: 90%;
+	float: right;
+}
+
+td#regular {
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	color: #333333;
+	padding-top: 12%;
+	padding-bottom: 3%;
+}
+
+td#small {
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-size: 12px;
+	color: #333333;
+	float: right;
+	padding-right: 3em;
+}
+
 table.contact {
 	width: 1024px;
 	height: 746px;
 	position: relative;
 }
+
+.clients-our-clients {
+	font-family: Calibri, sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	color: #333333;
+	margin-bottom: 25px;
+}
+
+.clients-our-clients a {
+	color: #1050a2;
+}
+
+.clients-images {
+	text-align: center;
+}
+
 
 #contact-map {
 	position: absolute;
