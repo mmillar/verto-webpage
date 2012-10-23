@@ -120,14 +120,12 @@ body {
   }
   #navigation ul.nav > li a:hover {
     color: #5595a5;
-    background: #f2f7f8;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     text-decoration: none;
   }
   #navigation ul.nav > li:hover {
-    background: #f2f7f8;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;

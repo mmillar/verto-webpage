@@ -73,7 +73,7 @@
 	        <div id="header-right" class="fr">
 				<nav id="top-nav">
 					<span id="search"><?php include (TEMPLATEPATH . '/search-form.php'); ?></span>
-					<span id="login"><a href="http://support.verto.ca" target="_blank">Login</a></span>
+					<span id="login"><a href="http://support.verto.ca" target="_blank">LOGIN</a></span>
 				</nav>
 
 				<?php

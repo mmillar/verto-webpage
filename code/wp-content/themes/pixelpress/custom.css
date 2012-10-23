@@ -14,12 +14,28 @@ GLOBAL STYLES
 ----------------
 Add styles beneath this line that you want to be applied across your entire site */
 
+@font-face {
+	font-family: DINPro;  
+	src: local('DINPro-Regular'), 
+		url("fonts/DINPro-Regular.otf") format('opentype');  
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: DINPro-Bold;  
+	src: local('DINPro-Bold'), 
+		url("fonts/DINPro-Bold.otf") format('opentype');  
+	font-weight: normal;
+	font-style: normal;
+}
+
 #header {
 	width: 1024px;
 	height: 120px;
-	font-family: Calibri, sans-serif;
+	font-family: DINPro, Calibri;
 	font-style: normal;
-	font-size: 18px; 
+	font-size: 16px; 
 	color: #5d5d5d;
 	padding: 0 0 1.618em;
 	clear: both;
@@ -41,22 +57,17 @@ Add styles beneath this line that you want to be applied across your entire site
 
 #header-right #top-nav #search {
 	float:right;
-	margin-bottom: 0;
-	padding: 0;
 }
 
 #header-right #top-nav #login {
 	float:right;
-	margin-bottom: 0;
 	padding: 0 20px 0;
 }
 
 #navigation {
     display: block !important;
     clear: none;
-    float: left;
-    padding: 0;
-    padding-right: 30px;
+    float: right;
 }
 
 .current_page_item {
@@ -84,7 +95,7 @@ Add styles beneath this line that you want to be applied across your entire site
 }
 
 .feature-title#rightpath {
-	font-family: Calibri;
+	font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 30px;
 	color: #44630c;
@@ -104,7 +115,7 @@ Add styles beneath this line that you want to be applied across your entire site
 }
 
 .rpproduct1 p {
-	font-family: Calibri, sans-serif;
+	font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 25px;
 	color: #738651;
@@ -129,7 +140,7 @@ Add styles beneath this line that you want to be applied across your entire site
 }
 
 .rpproduct2 p {
-	font-family: Calibri;
+	font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 25px;
 	color: #518667;
@@ -154,7 +165,7 @@ Add styles beneath this line that you want to be applied across your entire site
 }
 
 .rpproduct3 p {
-	font-family: Calibri;
+	font-family: DINPro-Bold Calibri;
 	font-weight: bold;
 	font-size: 25px;
 	color: #518680;
@@ -180,7 +191,7 @@ Add styles beneath this line that you want to be applied across your entire site
 }
 
 .rpproduct4 p {
-	font-family: Calibri;
+	font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 25px;
 	color: #516c86;
@@ -202,7 +213,7 @@ table.verto tr td {
 }
 
 #verto-title {
-	font-family: Calibri, sans-serif;
+	font-family: DINPro, Calibri;
 	font-style: italic;
 	font-size: 67px;
 	color: #FFF;
@@ -218,7 +229,7 @@ table.verto tr td {
 }
 
 .verto-summary {
-	font-family: Calibri, sans-serif;
+	font-family: DINPro, Calibri;
 	font-style: normal;
 	font-size: 14px;
 	color: #666666;
@@ -230,7 +241,7 @@ table.verto tr td {
 }
 
 #black-text {
-	font-family: Calibri, sans-serif;
+	font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 24px;
 	color: #5d5d5d;
@@ -239,7 +250,7 @@ table.verto tr td {
 }
 
 #blue-text {
-	font-family: Calibri, sans-serif;
+	font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 24px;
 	color: #1050a2;
@@ -265,7 +276,7 @@ table.verto tr td {
 }
 
 #verto-our-team-name {
-	font-family: Calibri, sans-serif;
+	font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 14px;
 	color: #333333;
@@ -273,8 +284,7 @@ table.verto tr td {
 }
 
 #verto-our-team-position {
-	font-family: Calibri, sans-serif;
-	font-weight: regular;
+	font-family: DINPro, Calibri;
 	font-size: 14px;
 	color: #333333;
 	text-align: center;
@@ -342,7 +352,7 @@ table.clients tr td {
 }
 
 #clients-title {
-	font-family: Calibri, sans-serif;
+	font-family: DINPro, Calibri;
 	font-style: italic;
 	font-size: 67px;
 	color: #FFF;
@@ -353,7 +363,7 @@ table.clients tr td {
 }
 
 #clients-subtitle {
-	font-family: Calibri, sans-serif;
+	font-family: DINPro, Calibri;
 	font-style: italic;
 	font-size: 36px;
 	color: #FFCCFF;
@@ -394,7 +404,7 @@ table.clients tr td {
 }
 
 td#regular {
-	font-family: Calibri, sans-serif;
+	font-family: DINPro, Calibri;
 	font-style: normal;
 	font-size: 14px;
 	color: #333333;
@@ -403,7 +413,7 @@ td#regular {
 }
 
 td#small {
-	font-family: Calibri, sans-serif;
+	font-family: DINPro, Calibri;
 	font-style: normal;
 	font-size: 12px;
 	color: #333333;
@@ -418,7 +428,7 @@ table.contact {
 }
 
 .clients-our-clients {
-	font-family: Calibri, sans-serif;
+	font-family: DINPro, Calibri;
 	font-style: normal;
 	font-size: 14px;
 	color: #333333;
@@ -472,9 +482,9 @@ table.contact {
   	-webkit-box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
   	-moz-box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
   	-o-box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
-  	font-family: Calibri, sans-serif;
+  	font-family: DINPro, Calibri;
   	font-style: normal;
-  	font-style: 18px;
+  	font-style: 16px;
   	color: #FFF;
   	text-shadow: 1px 1px 1px #000;
 }
@@ -502,7 +512,7 @@ hr.footer {
 #footer {
 	width: 1024px;
 	height: 120px;
-	font-family: Calibri, sans-serif;
+	font-family: DINPro, Calibri;
 	font-style: normal;
 	font-size: 14px;
 	color: #5d5d5d;
@@ -556,9 +566,8 @@ Add styles inside the media query below that you only want to be applied to the 
 }
 
 .listoffeatures a{
-	font-family:Calibri; 
-	font-weight: Regular;
-	font-size: 14pt;
+	font-family: DINPro, Calibri;
+	font-size: 16px;
 	color:	#1050a2;
 }
 
@@ -678,26 +687,25 @@ margin-left: 10px;
 }
 
 .mindmerge-desc{
-	text-align: center;
 	vertical-align: center;
-	padding-top:282px;
+	padding-top:265px;
 	margin-left: 150px;
 }
 
 .mindmerge-desc .mm-header{
-	font-family: Calibri;
+	font-family: DINPro, Calibri;
 	font-style: italic;
-	font-size: 38px;
+	font-size: 33px;
 	float:left;
 	margin-left:260px;
+	padding-right: 10px;
 	color:#2bc7e5;
 }
 .mindmerge-desc .mm-afterheader{
-	font-family: Calibri;
+	font-family: DINPro, Calibri;
 	font-style: italic;
-	width:800px;
-	padding-top:5px;
-	font-size: 36px;
+	padding-top:2px;
+	font-size: 31px;
 
 	color:#63af33;
 }
@@ -727,7 +735,7 @@ body {
 }
 
 .product-about-title{
-	font-family: Calibri;
+	font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 30px;
 	color: #ffffff;
@@ -750,7 +758,7 @@ margin-left: 10px;
 
 }
 .feature-title {
-	font-family:Calibri;
+	font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 30px;
 	color: #3e5166;
@@ -785,7 +793,7 @@ padding-top: 3px;
 }
 
 .mmproduct1 p{
-			font-family: Calibri;
+			font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 25px;
 	color: #516c86;
@@ -794,7 +802,7 @@ padding-top: 3px;
 
 }
 .mmproduct2 p{
-			font-family: Calibri;
+			font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 25px;
 		padding-top: 17px;
@@ -802,7 +810,7 @@ padding-left: 72px;
 	color: #528387;
 }
 .mmproduct3 p{
-			font-family: Calibri;
+			font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	padding-top: 17px;
 padding-left: 72px;
@@ -810,7 +818,7 @@ padding-left: 72px;
 	color: #528771;
 }
 .mmproduct4 p{
-			font-family: Calibri;
+			font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 25px;
 		padding-top: 17px;
@@ -883,7 +891,7 @@ ul{
 
 
 .product-about{
-	font-family: Calibri;
+	font-family: DINPro-Bold, Calibri;
 	font-weight: bold;
 	font-size: 16px;
 	color: #FFF;
