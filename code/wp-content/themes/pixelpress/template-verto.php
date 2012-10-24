@@ -9,7 +9,7 @@
 	global $woo_options;
 ?>
 
-<div id="content-wrapper">
+<div id="verto-wrapper">
 
     <div id="content" class="page col-full">
     
@@ -78,6 +78,6 @@ Duis eu elit lectus. Donec aliquam, sapien id posuere pellentesque, metus turpis
 		
     </div><!-- /#content -->
 
-</div><!-- /#content-wrapper -->
+</div><!-- /#verto-wrapper -->
 		
 <?php get_footer(); ?>

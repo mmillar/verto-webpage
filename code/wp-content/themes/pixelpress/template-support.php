@@ -9,7 +9,7 @@
 	global $woo_options;
 ?>
 
-<div id="content-wrapper">
+<div id="support-wrapper">
 
     <div id="content" class="page col-full">
     
@@ -93,6 +93,6 @@
 		
     </div><!-- /#content -->
 
-</div><!-- /#content-wrapper -->
+</div><!-- /#support-wrapper -->
 		
 <?php get_footer(); ?>

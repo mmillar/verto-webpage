@@ -26,10 +26,10 @@
 					
 	$settings = woo_get_dynamic_values( $settings );
 ?>
-    
-<!-- #content Starts -->
-<div id="content-wrapper">
 
+<div id="products-mindmerge-wrapper">
+
+    <!-- #content Starts -->
     <div id="content" class="col-full">
     
         <?php woo_main_before(); ?>
@@ -101,6 +101,6 @@
 
     </div><!-- /#content -->
 
-</div><!-- /#content-wrapper -->    
+</div><!-- /#products-mindmerge-wrapper -->    
 		
 <?php get_footer(); ?>

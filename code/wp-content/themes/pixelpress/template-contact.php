@@ -14,7 +14,7 @@ get_header();
 
 ?>
 
-<div id="content-wrapper">
+<div id="contact-wrapper">
 
     <div id="content" class="page col-full">
     
@@ -261,6 +261,6 @@ jQuery(document).ready(function() {
 		
     </div><!-- /#content -->
 
-</div><!-- /#content-wrapper -->
+</div><!-- /#contact-wrapper -->
 		
 <?php get_footer(); ?>

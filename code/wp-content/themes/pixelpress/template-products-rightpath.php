@@ -27,9 +27,9 @@
 	$settings = woo_get_dynamic_values( $settings );
 ?>
 
-<!-- #content Starts -->
-<div id="content-wrapper">
+<div id="products-rightpath-wrapper">
 
+    <!-- #content Starts -->
     <div id="content" class="col-full">
     
         <?php woo_main_before(); ?>
@@ -102,6 +102,6 @@
 
     </div><!-- /#content -->
 
-</div><!-- /#content-wrapper -->    
+</div><!-- /#products-rightpath-wrapper -->    
 		
 <?php get_footer(); ?>
