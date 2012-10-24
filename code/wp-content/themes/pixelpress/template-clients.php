@@ -37,7 +37,9 @@
        </div>
 
        <div class="clients-our-clients">
-            <div><span id="black-text">Our </span><span id="blue-text">Clients</span></div><br />
+            <div id="clients-our-clients-title">
+                <span id="black-text">Our </span><span id="blue-text">Clients</span>
+            </div><br />
             <div>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et sodales eros. Nunc aliquet, nunc quis adipiscing tempor, justo justo rhoncus dolor, vel tempor quam velit vel nisl. Donec pulvinar, orci quis eleifend hendrerit, sem eros adipiscing mauris, eget egestas dui arcu dapibus felis. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio nisl, bibendum in volutpat non, pellentesque venenatis libero. Nam fringilla congue libero, eu pellentesque ligula pretium sed. Aenean ultricies, tortor ac molestie laoreet, tortor leo dapibus sapien, id iaculis turpis mi sed velit. Duis ligula tortor, laoreet ac ultricies ut, convallis sed dui.<br /><br />
                 Pellentesque in feugiat elit. Vivamus ligula purus, consectetur eget ultrices id, commodo eget enim. Donec nec augue et ipsum interdum viverra. Ut at tortor non augue convallis tempor. Suspendisse potenti. Donec vitae viverra justo. Nam vel arcu eget dolor pharetra commodo et sed felis. Quisque urna magna, vehicula quis sodales et, aliquet eu arcu. Sed eleifend neque quis tellus facilisis interdum. Cras eget urna ut purus cursus accumsan sit amet sed augue. Etiam in mattis ante.<br /><br />

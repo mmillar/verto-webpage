@@ -25,7 +25,9 @@ Duis eu elit lectus. Donec aliquam, sapien id posuere pellentesque, metus turpis
 	   </div>
 
         <div class="verto-our-team">
-            <div><span id="black-text">Our </span><span id="blue-text">Team</span></div><br />
+            <div id="verto-our-team-title">
+                <span id="black-text">Our </span><span id="blue-text">Team</span>
+            </div><br />
             <div id="verto-our-team-main">
                 <span id="left-arrow"><img src="<?php bloginfo('template_directory');?>/images/ico-arrow-left.png" /></span>
                 <span id="pictures">[Picture 1] [Picture 2] [Picture 3] [Picture 4] [Picture 5]</span>
@@ -38,7 +40,9 @@ Duis eu elit lectus. Donec aliquam, sapien id posuere pellentesque, metus turpis
         <div class="separator-dark"></div>
 
         <div class="verto-our-vision">
-        	<div><span id="black-text">Our </span><span id="blue-text">Vision</span></div><br />
+        	<div id="verto-our-vision-title">
+                <span id="black-text">Our </span><span id="blue-text">Vision</span>
+            </div><br />
         	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
             <div id="verto-our-vision-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
             <div>Proin volutpat nisl vel enim congue id fringilla est vestibulum. Donec pretium mollis hendrerit. Nullam nec felis eget velit laoreet sollicitudin luctus ut enim. Cras elit nisi, posuere vitae tincidunt id, posuere ac dolor.</div>
@@ -50,7 +54,9 @@ Duis eu elit lectus. Donec aliquam, sapien id posuere pellentesque, metus turpis
         </div>
 
         <div class="verto-our-benefits">
-            <div><span id="black-text">Our </span><span id="blue-text">Benefits</span></div><br />
+            <div id="verto-our-benefits-title">
+                <span id="black-text">Our </span><span id="blue-text">Benefits</span>
+            </div><br />
         	<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat nisl vel enim congue id fringilla est vestibulum. Donec pretium mollis hendrerit. Nullam nec felis eget velit laoreet sollicitudin luctus ut enim. Cras elit nisi, posuere vitae tincidunt id, posuere ac dolor.</div>
             <div><ul>
                 <li>Cras commodo viverra congue.</li>

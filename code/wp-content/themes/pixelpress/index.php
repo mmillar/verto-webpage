@@ -33,12 +33,6 @@
     	<?php woo_main_before(); ?>
 
 		<section id="main" class="fullwidth">
-		<div class ="main-banner">
-			<div class ="mindmerge-desc"><p class="mm-header"> Better Communication </p><div class ="mm-afterheader"> made simple</div>
-				
-			<div class = "moreinfolink"><a href="products/mindmerge">More Information <span class ="greenarrow">></span></a></div>
-		</div>
-	</div>
 			<div class ="main-features">
 				<div class = "three-features">
 					<ul class ="listoffeatures">
