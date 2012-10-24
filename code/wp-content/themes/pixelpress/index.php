@@ -28,6 +28,8 @@
 	
 ?>
 
+<div id="content-wrapper">
+
     <div id="content">
 
     	<?php woo_main_before(); ?>
@@ -64,16 +66,14 @@
 						
 					</ul>
 					<div class = "arrowbutton"><img src="<?php bloginfo('template_directory');?>/images/Arrow_Button_Right.png" style="padding-top:20px;"></div>
-
 				</div>
-
-
 			</div>
-		<div class ="news"
 		</section><!-- /#main -->
 		
 		<?php woo_main_after(); ?>
 
     </div><!-- /#content -->
+
+</div><!-- /#content-wrapper -->
 		
 <?php get_footer(); ?>

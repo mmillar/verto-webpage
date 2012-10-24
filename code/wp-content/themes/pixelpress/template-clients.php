@@ -7,7 +7,10 @@
  */
 	get_header();
 	global $woo_options;
-?>     
+?>
+
+<div id="content-wrapper">
+
     <div id="content" class="page col-full">
     
     	<?php woo_main_before(); ?>
@@ -65,5 +68,7 @@
 		<?php woo_main_after(); ?>
 		
     </div><!-- /#content -->
+
+</div><!-- /#header-wrapper -->
 		
 <?php get_footer(); ?>

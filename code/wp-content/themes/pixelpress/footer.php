@@ -21,10 +21,8 @@
 		   woo_active_sidebar( 'footer-3' ) ||
 		   woo_active_sidebar( 'footer-4' ) ) && $total > 0 ) {
 ?>
-	
-	<?php woo_footer_before(); ?>
-			
-		<div id="footer-wrap">
+
+	<?php woo_footer_before(); ?>	
 			
 		<section id="footer-widgets" class="col-full col-<?php echo $total; ?> fix">
 	
@@ -40,9 +38,9 @@
 	
 		</section><!-- /#footer-widgets  -->
 
-		</div><!-- /#footer-wrap  -->
-
 	<?php } // End IF Statement ?>
+	<div id="footer-wrap">
+		
 		<footer id="footer" class="col-full">
 
 			<hr class="footer" />
@@ -65,6 +63,8 @@
 			</div>
 	
 		</footer><!-- /#footer  -->
+
+	</div><!-- /#footer-wrap  -->
 
 </div><!-- /#wrapper -->
 <?php wp_footer(); ?>
