@@ -24,6 +24,9 @@ Add styles beneath this line that you want to be applied across your entire site
 	clear: both;
 	position: relative;
 }
+#featured {
+	z-index:-1;
+}
 
 #logo {
     float: left;
@@ -32,10 +35,12 @@ Add styles beneath this line that you want to be applied across your entire site
 }
 
 #header-wrap {
-	box-shadow: 0 1px 1px 1px rgb(217, 217, 217);
-  	-webkit-box-shadow: 0 1px 1px 1px rgb(217, 217, 217);
-  	-moz-box-shadow: 0 1px 1px 1px rgb(217, 217, 217);
-  	-o-box-shadow: 0 1px 1px 1px rgb(217, 217, 217);
+	box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.85);
+	-webkit-box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.85);
+	-moz-box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.85);
+	-o-box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.85);
+	z-index: 3;
+
 }
 
 #header-right #top-nav #search {
@@ -213,9 +218,21 @@ table.support tr td {
 	vertical-align: middle;
 }
 
+#support-menu a {
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+
 #support-menu-line {
 	height: 2px;
-	border-bottom: 1px #FFF solid;
+	border-bottom: 1px #d3d3d3 solid;
+}
+
+.support-main {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
 }
 
 .support-left a, .support-right a {
@@ -340,6 +357,9 @@ table.verto tr td {
 }
 
 .verto-summary {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
 	font-style: normal;
 	font-size: 14px;
 	color: #666666;
@@ -347,6 +367,9 @@ table.verto tr td {
 }
 
 .verto-our-team {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 20px;
 }
 
@@ -394,10 +417,16 @@ table.verto tr td {
 	text-align: center;
 }
 
+.verto-our-vision-our-benefits {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+
 .verto-our-vision {
 	width: 47%;
 	float: left;
-	margin-bottom: 20px;
 }
 
 #verto-our-vision-quote {
@@ -417,7 +446,6 @@ table.verto tr td {
 .verto-our-benefits {
 	width: 47%;
 	float: right;
-	margin-bottom: 20px;
 }
 
 .verto-our-benefits ul {
@@ -436,11 +464,11 @@ table.verto tr td {
 	margin-bottom: 20px;
 }
 
-.separator-dark-padding {
-	height: 2px;
-	border-bottom: 2px #dcdcdc solid;
-	margin-bottom: 20px;
-	padding-top: 300px;
+.clients-main {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
 }
 
 table.clients {
@@ -524,7 +552,16 @@ td#small {
 table.contact {
 	width: 1024px;
 	height: 746px;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
+}
+
+.our-clients-all {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
 }
 
 .clients-our-clients {
@@ -825,6 +862,8 @@ margin-left: 10px;
  list-style-type: none;
 	padding-bottom: 10px;
 	width:1024px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -965,7 +1004,10 @@ ul{
 
 
 #product-features{
-	height: 180px;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
 }
 
 .dotted-line{

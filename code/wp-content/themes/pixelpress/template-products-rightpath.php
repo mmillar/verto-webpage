@@ -27,81 +27,75 @@
 	$settings = woo_get_dynamic_values( $settings );
 ?>
 
-<div id="products-rightpath-wrapper">
-
     <!-- #content Starts -->
-    <div id="content" class="col-full">
+    <div id="content">
     
         <?php woo_main_before(); ?>
         
-        <section id="product-main" class="product_main">       
-		
-		<?php woo_loop_before(); 
-        $array = wp_get_attachment_image_src();?>
-        <div class="product-logo" id="rightpath">
-            <img src="<?php bloginfo('template_directory');?>/images/products_rightpath.png">
-        </div>
-        <div class="product-desc" id="rightpath">
-            <div class="product-about-title"><p>About RightPath</p></div>
-            <div class="line-separator"></div>
-            <div class="product-about">
-                <p>Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.
-                Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div id="product-main-wrapper">
+            <section id="product-main" class="product_main">       
+    		
+    		<?php woo_loop_before(); 
+            $array = wp_get_attachment_image_src();?>
+            <div class="product-logo" id="rightpath">
+                <img src="<?php bloginfo('template_directory');?>/images/products_rightpath.png">
             </div>
-        </div>
-        
-        <?php woo_loop_after(); ?>
-        <?php woo_pagenav(); ?>
-		<?php wp_reset_postdata(); ?>                
-
-        </section><!-- /#main -->
-
-        <section id="product-features">
-
-            <div class="feature-title" id="rightpath">Features</div>
-            <div class="dotted-line"></div>
-            <ul class="product-features-numbered">
-                <li class="rpproduct1">
-                    <img src="<?php bloginfo('template_directory');?>/images/ico-rightpath-circle-1.png" />  <p> Features </p>
-                    Lorem ipsum dolor sit amet,
+            <div class="product-desc" id="rightpath">
+                <div class="product-about-title"><p>About RightPath</p></div>
+                <div class="line-separator"></div>
+                <div class="product-about">
+                    <p>Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit.
-                    Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                
-                <li class="rpproduct2">
-                    <img src ="<?php bloginfo('template_directory');?>/images/ico-rightpath-circle-2.png" /> <p> Features </p>
-                    Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                    Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
+                    Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            
+            <?php woo_loop_after(); ?>
+            <?php woo_pagenav(); ?>
+    		<?php wp_reset_postdata(); ?>                
 
-                <li class="rpproduct3">
-                    <img src = "<?php bloginfo('template_directory');?>/images/ico-rightpath-circle-3.png" /> <p> Features </p>
-                    Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                    Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
+            </section><!-- /#product-main -->
+        </div><!-- /#product-main-wrapper -->
 
-                <li class="rpproduct4">
-                    <img src="<?php bloginfo('template_directory');?>/images/ico-rightpath-circle-4.png" /> <p> Features </p>
-                    Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                    Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </section>
+        <div id="product-features-wrapper">
+            <section id="product-features">
 
-        <section id ="product-menu">
-      
-        </section>
+                <div class="feature-title" id="rightpath">Features</div>
+                <div class="dotted-line"></div>
+                <ul class="product-features-numbered">
+                    <li class="rpproduct1">
+                        <img src="<?php bloginfo('template_directory');?>/images/ico-rightpath-circle-1.png" />  <p> Features </p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </li>
+                    
+                    <li class="rpproduct2">
+                        <img src ="<?php bloginfo('template_directory');?>/images/ico-rightpath-circle-2.png" /> <p> Features </p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </li>
+
+                    <li class="rpproduct3">
+                        <img src = "<?php bloginfo('template_directory');?>/images/ico-rightpath-circle-3.png" /> <p> Features </p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </li>
+
+                    <li class="rpproduct4">
+                        <img src="<?php bloginfo('template_directory');?>/images/ico-rightpath-circle-4.png" /> <p> Features </p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </li>
+                </ul>
+            </section><!-- /#product-features -->
+        </div><!-- /#product-features-wrapper -->
         
         <?php woo_main_after(); ?>
-            
 
-
-    </div><!-- /#content -->
-
-</div><!-- /#products-rightpath-wrapper -->    
+    </div><!-- /#content -->   
 		
 <?php get_footer(); ?>

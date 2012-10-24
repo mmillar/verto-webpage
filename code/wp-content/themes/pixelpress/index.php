@@ -28,52 +28,54 @@
 	
 ?>
 
-<div id="content-wrapper">
-
     <div id="content">
 
     	<?php woo_main_before(); ?>
 
 		<section id="main" class="fullwidth">
-			<div class ="main-features">
-				<div class = "three-features">
-					<ul class ="listoffeatures">
-						<li class ="healthcare"><img src="<?php bloginfo('template_directory');?>/images/Index_Health.png"><div class= "index-title"><span id ="black-text" > For</span><span id = "blue-text"> Healthcare</span></div>
-						<div class = "index-text">TextLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas pharetra bibendum. Suspendisse pretium, velit vel ultricies convallis, nisl tortor dictum sapien, vehicula dictum nunc ante tempus magna. Nullam vulputate elit a odio viverra quis luctus mauris sodales. Phasellus a rhoncus risus. Nulla facilisi. In gravida eleifend interdum. Phasellus in ipsum ipsum. Proin metus lorem, malesuada eu convallis sit amet, porttitor et est. <a href ="products/">More ></a></div>
-						</li>
-						<li class ="workforce"><img src="<?php bloginfo('template_directory');?>/images/Index_Workers.png"><div class= "index-title"><span id ="black-text" > For</span><span id = "blue-text"> Workforces</span></div>
-						<div class = "index-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas pharetra bibendum. Suspendisse pretium, velit vel ultricies convallis, nisl tortor dictum sapien, vehicula dictum nunc ante tempus magna. Nullam vulputate elit a odio viverra quis luctus mauris sodales. Phasellus a rhoncus risus. Nulla facilisi. In gravida eleifend interdum. Phasellus in ipsum ipsum. Proin metus lorem, malesuada eu convallis sit amet, porttitor et est.Text <a href ="products/">More ></a></div></li>
-						<li class ="site"><img src="<?php bloginfo('template_directory');?>/images/Index_Site.png"><div class= "index-title"><span id ="black-text" > For</span><span id = "blue-text"> Your Site</span></div>
-						<div class = "index-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas pharetra bibendum. Suspendisse pretium, velit vel ultricies convallis, nisl tortor dictum sapien, vehicula dictum nunc ante tempus magna. Nullam vulputate elit a odio viverra quis luctus mauris sodales. Phasellus a rhoncus risus. Nulla facilisi. In gravida eleifend interdum. Phasellus in ipsum ipsum. Proin metus lorem, malesuada eu convallis sit amet, porttitor et est.Text <a href ="products/">More ></a></div></li>
-					</ul>
-				</div>
-           </div>
 
-			<div class ="main-clients">
-				   <div class="line-separator"></div>
-				<div class="clients-title"><span id ="black-text">Our</span> <span id ="blue-text">Clients</span></div>
-				<div class="clients-links"></div>
-				<div class="client-images">
-				<div class = "arrowbutton"><img src="<?php bloginfo('template_directory');?>/images/Arrow_Button_Left.png" style="padding-top:20px;"> </div>
-				<ul class ="listofclients">
+			<div id="main-features-wrapper">
+				<div class ="main-features">
+					<div class = "three-features">
+						<ul class ="listoffeatures">
+							<li class ="healthcare"><img src="<?php bloginfo('template_directory');?>/images/Index_Health.png"><div class= "index-title"><span id ="black-text" > For</span><span id = "blue-text"> Healthcare</span></div>
+							<div class = "index-text">TextLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas pharetra bibendum. Suspendisse pretium, velit vel ultricies convallis, nisl tortor dictum sapien, vehicula dictum nunc ante tempus magna. Nullam vulputate elit a odio viverra quis luctus mauris sodales. Phasellus a rhoncus risus. Nulla facilisi. In gravida eleifend interdum. Phasellus in ipsum ipsum. Proin metus lorem, malesuada eu convallis sit amet, porttitor et est. <a href ="products/">More ></a></div>
+							</li>
+							<li class ="workforce"><img src="<?php bloginfo('template_directory');?>/images/Index_Workers.png"><div class= "index-title"><span id ="black-text" > For</span><span id = "blue-text"> Workforces</span></div>
+							<div class = "index-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas pharetra bibendum. Suspendisse pretium, velit vel ultricies convallis, nisl tortor dictum sapien, vehicula dictum nunc ante tempus magna. Nullam vulputate elit a odio viverra quis luctus mauris sodales. Phasellus a rhoncus risus. Nulla facilisi. In gravida eleifend interdum. Phasellus in ipsum ipsum. Proin metus lorem, malesuada eu convallis sit amet, porttitor et est.Text <a href ="products/">More ></a></div></li>
+							<li class ="site"><img src="<?php bloginfo('template_directory');?>/images/Index_Site.png"><div class= "index-title"><span id ="black-text" > For</span><span id = "blue-text"> Your Site</span></div>
+							<div class = "index-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas pharetra bibendum. Suspendisse pretium, velit vel ultricies convallis, nisl tortor dictum sapien, vehicula dictum nunc ante tempus magna. Nullam vulputate elit a odio viverra quis luctus mauris sodales. Phasellus a rhoncus risus. Nulla facilisi. In gravida eleifend interdum. Phasellus in ipsum ipsum. Proin metus lorem, malesuada eu convallis sit amet, porttitor et est.Text <a href ="products/">More ></a></div></li>
+						</ul>
+					</div>
+	           	</div>
+	        </div><!-- /#main-features-wrapper -->
 
-						<li class ="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/CP_Logo.png">
-						
-						</li>
-						<li class ="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Prodigy_Logo.png"></li>
-						
-						<li class ="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Sunnybrook_Logo.png"></li>
-						
-					</ul>
-					<div class = "arrowbutton"><img src="<?php bloginfo('template_directory');?>/images/Arrow_Button_Right.png" style="padding-top:20px;"></div>
+	        <div id="main-clients-wrapper">
+				<div class ="main-clients">
+					   <div class="line-separator"></div>
+					<div class="clients-title"><span id ="black-text">Our</span> <span id ="blue-text">Clients</span></div>
+					<div class="clients-links"></div>
+					<div class="client-images">
+					<div class = "arrowbutton"><img src="<?php bloginfo('template_directory');?>/images/Arrow_Button_Left.png" style="padding-top:20px;"> </div>
+					<ul class ="listofclients">
+
+							<li class ="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/CP_Logo.png">
+							
+							</li>
+							<li class ="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Prodigy_Logo.png"></li>
+							
+							<li class ="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Sunnybrook_Logo.png"></li>
+							
+						</ul>
+						<div class = "arrowbutton"><img src="<?php bloginfo('template_directory');?>/images/Arrow_Button_Right.png" style="padding-top:20px;"></div>
+					</div>
 				</div>
-			</div>
+			</div><!-- /#main-clients-wrapper -->
+
 		</section><!-- /#main -->
 		
 		<?php woo_main_after(); ?>
 
     </div><!-- /#content -->
-
-</div><!-- /#content-wrapper -->
 		
 <?php get_footer(); ?>
