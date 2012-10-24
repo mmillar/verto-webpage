@@ -7,9 +7,9 @@ Author: WooThemes
 Author URI: http://www.woothemes.com
 Tags: woothemes
 
-	Copyright: (c) 2009-2011 WooThemes.
-	License: GNU General Public License v2.0
-	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  Copyright: (c) 2009-2011 WooThemes.
+  License: GNU General Public License v2.0
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 */
 /* 
@@ -1787,13 +1787,14 @@ ul.nav li.li.current-menu-item a {
   padding: 2.618em 0;
   min-height: 350px;
   background: #82c5d5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#82c5d5), to(#d2e8ed));
-  background: -webkit-linear-gradient(#82c5d5, #d2e8ed);
-  background: -moz-linear-gradient(center top, #82c5d5 0%, #d2e8ed 100%);
-  background: -moz-gradient(center top, #82c5d5 0%, #d2e8ed 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#82c5d5,endColorstr=#d2e8ed);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#82c5d5, endColorstr=#d2e8ed)";
+  background: -webkit-gradient(linear, left top, left bottom, from(#337499), to(#3e96d0));
+  background: -webkit-linear-gradient(#337499, #3e96d0);
+  background: -moz-linear-gradient(center top, #337499 0%, #3e96d0 100%);
+  background: -moz-gradient(center top, #337499 0%, #3e96d0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#337499,endColorstr=#3e96d0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#337499, endColorstr=#3e96d0)";
 }
+
 #featured .slide header {
   margin-bottom: 0.618em;
   text-align: center;
