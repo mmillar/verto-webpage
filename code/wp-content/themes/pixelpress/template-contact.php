@@ -153,7 +153,11 @@ jQuery(document).ready(function() {
 //-->!]]>
 </script>
 
-		<section id="main" class="col-full">
+		<section id="main" class="fullwidth">
+
+			<div id="contact-form-wrapper">
+
+			<div class="contact-form">
 
             <article id="contact-page" class="page">
 
@@ -254,6 +258,8 @@ jQuery(document).ready(function() {
                     ?>
 
             </article><!-- /#contact-page -->
+        	</div>
+        	</div><!-- /#contact-form-wrapper -->
 		</section><!-- /#main -->
 <!-- END Copied directly from template-contact-form.php (original template-contact.php) -->
 		
