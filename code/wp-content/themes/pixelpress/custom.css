@@ -78,6 +78,7 @@ Add styles beneath this line that you want to be applied across your entire site
 	background-image: -moz-linear-gradient(top, #4C386F 0%, #3F2B63 65%);
 	background-image: -webkit-linear-gradient(top, #4C386F 0%, #3F2B63 100%);
 	background-image: -ms-linear-gradient(top, #4C386F 0%, #3F2B63 65%);
+	position: relative;
 	z-index: -3;
 
 }
@@ -96,6 +97,7 @@ Add styles beneath this line that you want to be applied across your entire site
 #verto-summary-wrapper {
 	background-color: #24737A;
 	padding-bottom: 10px;
+	position: relative;
 	z-index: -3;
 
 }
@@ -129,6 +131,7 @@ Add styles beneath this line that you want to be applied across your entire site
 	background-image: -moz-linear-gradient(top, #396146 0%, #26753F   65%);
 	background-image: -webkit-linear-gradient(top, #396146 0%, #26753F   100%);
 	background-image: -ms-linear-gradient(top, #396146 0%, #26753F  65%);
+	position: relative;
 	z-index: -3;
 }
 
@@ -151,6 +154,7 @@ Add styles beneath this line that you want to be applied across your entire site
 	background-image: -moz-linear-gradient(top, #337499 0%, #3e96d0   65%);
 	background-image: -webkit-linear-gradient(top, #337499 0%, #3e96d0    100%);
 	background-image: -ms-linear-gradient(top, #337499 0%, #3e96d0 65%);
+	position: relative;
 	z-index: -3;
 	padding-top: 50px;
 	padding-bottom: 50px;
