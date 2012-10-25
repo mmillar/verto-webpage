@@ -40,15 +40,6 @@
             <div class="product-logo" id="rightpath">
                 <img src="<?php bloginfo('template_directory');?>/images/products_rightpath.png">
             </div>
-            <div class="product-desc" id="rightpath">
-                <div class="product-about-title"><p>About RightPath</p></div>
-                <div class="line-separator"></div>
-                <div class="product-about">
-                    <p>Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                    Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-            </div>
             
             <?php woo_loop_after(); ?>
             <?php woo_pagenav(); ?>

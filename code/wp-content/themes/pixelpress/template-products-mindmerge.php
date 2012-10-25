@@ -40,18 +40,6 @@
             <div class="product-logo">
                 <img src= "<?php bloginfo('template_directory');?>/images/products_mindmerge.png">
             </div>
-            <div class ="product-desc">
-                <div class= "product-about-title">
-                    <p>About MindMerge</p>
-                </div>
-                <div class="line-separator"></div>
-                <div class = "product-about">
-                       <p> Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
-                         Sed in dui elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                </div>
-
-            </div>
             
             <?php woo_loop_after(); ?>
             <?php woo_pagenav(); ?>
