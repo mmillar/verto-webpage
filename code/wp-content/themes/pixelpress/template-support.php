@@ -16,20 +16,7 @@
 		<section id="main" class="fullwidth">
 
         <div id="support-banner-wrapper">
-            <table class="support"><tr><td background="<?php bloginfo('template_directory');?>/images/support-banner-1024x250.png">
-                <div id="support-title">"Say Something Nice Here."</div>
-                <div id="support-menu">
-                    <div><a href="#">FAQ</a></div>
-                    <div id="support-menu-line"></div>
-                    <div><a href="../products/rightpath">RightPath</a></div>
-                    <div id="support-menu-line"></div>
-                    <div><a href="../products/mindmerge">MindMerge</a></div>
-                    <div id="support-menu-line"></div>
-                    <div><a href="../contact">Contact Us</a></div>
-                    <div id="support-menu-line"></div>
-                    <div><a href="#">News</a></div>
-                </div>
-            </td></tr></table>
+            <table class="support"><tr><td background="<?php bloginfo('template_directory');?>/images/support-banner-1024x250.png">"Say Something Nice Here."</td></tr></table>
         </div><!-- /#support-banner-wrapper -->
 
         <div id="support-main-wrapper">

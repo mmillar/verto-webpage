@@ -345,40 +345,12 @@ table.support {
 
 table.support tr td {
 	vertical-align: middle;
-}
-
-#support-title {
-	width: 75%;
+	text-align: center;
 	font-style: italic;
 	font-weight: bold;
 	font-size: 60px;
 	color: #FFF;
-	float: left;
-	padding-left: 5%;
 	text-shadow: 1px 1px 1px #000;
-	vertical-align: middle;
-}
-
-#support-menu {
-	width: 15%;
-	font-size: 24px;
-	color: #FFF;
-	float: right;
-	padding-right: 3%;
-	text-align: right;
-	text-shadow: 1px 1px 1px #000;
-	vertical-align: middle;
-}
-
-#support-menu a {
-	color: #FFF;
-	text-decoration: none;
-	text-shadow: 1px 1px 1px #000;
-}
-
-#support-menu-line {
-	height: 2px;
-	border-bottom: 1px #d3d3d3 solid;
 }
 
 .support-main {
