@@ -186,6 +186,54 @@ Add styles beneath this line that you want to be applied across your entire site
 	border-bottom: 2px #02a3e6 solid;
 }
 
+.main-info {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	
+}
+
+.main-newsfeed {
+	font-size: 15px;
+	color: #666666;
+	float: left;
+	width: 55%;
+}
+
+.main-newsfeed a {
+	color: #00aeef;
+}
+
+#main-newsfeed-title {
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+
+.main-product-support {
+	float: right;
+	width: 25%;
+}
+
+#main-product-support-title {
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+
+#main-product-support-menu {
+	font-size: 18px;
+}
+
+#main-product-support-link {
+	padding-bottom: 0.25em;
+}
+
+#main-product-support-link a {
+	color: #5d5d5d;
+}
+
 .product-desc#rightpath {
 	border-radius: 15px;
 	width: 547px;
@@ -418,7 +466,7 @@ table.support tr td {
 	color: #666666;
 }
 
-#support-twitter {
+#main-newsfeed-twitter, #support-twitter {
 	font-size: 15px;
 	font-weight: bold;
 }
@@ -761,7 +809,7 @@ table.contact {
 	top: 8%;
 	left: 70%;
 	width: 160px;
-	height: 273px;
+	height: 363px;
 	padding: 10px;
 	background-image: linear-gradient(top, #5a595a 30%, #494949 65%);
 	background-image: -o-linear-gradient(top, #5a595a 30%, #494949 65%);
@@ -782,7 +830,7 @@ table.contact {
   	-webkit-box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
   	-moz-box-shadow: 2px 2px 0 0 rgb(0, 0, 0);
   	font-style: normal;
-  	font-style: 16px;
+  	font-size: 18px;
   	color: #FFF;
   	text-shadow: 1px 1px 1px #000;
 }

@@ -72,6 +72,38 @@
 				</div>
 			</div><!-- /#main-clients-wrapper -->
 
+			<div id="main-info-wrapper">
+				<div class="main-info">
+					<div class="main-newsfeed">
+						<div id="main-newsfeed-title"><span id="dark-blue-text">Newsfeed</span></div>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium, tortor eu eleifend laoreet, risus nisl luctus tortor, quis fermentum erat dolor id nibh. Nullam vestibulum ligula et turpis pulvinar suscipit. Vivamus tempus libero sit amet quam luctus vel dignissim tellus scelerisque. <a href="http://www.twitter.com">Twitter.</a> Vestibulum laoreet risus at augue volutpat eget varius enim mollis. Nullam mattis risus sed lorem rutrum hendrerit. Praesent sollicitudin, diam et lacinia elementum, nibh dui porttitor ligula, quis lobortis enim nisl id diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus molestie bibendum magna eget faucibus. Aliquam erat volutpat. Fusce tristique pretium urna quis sagittis. Aliquam quis dolor ornare sem varius tristique.</div><br />
+                        <div>
+                            <a href="#">@Verto Support</a> Hello World!<br />
+                            <a href="#">@Tacos</a> Delicious~<br />
+                            <a href="#">@Anon</a> .__.</br>
+                        </div><br />
+                        <div id="main-newsfeed-twitter">
+                            <span><img src="<?php bloginfo('template_directory');?>/images/twitter.png" /></span>
+                            <span id="gray-text">Follow Us On </span><span id="light-blue-text">Twitter</span>
+                        </div>
+					</div>
+
+					<div class="main-product-support">
+						<div id="main-product-support-title">
+							<span id="black-text">Product</span>
+							<span id="blue-text">Support</span>
+						</div>
+						<div id="main-product-support-menu">
+			                <div id="main-product-support-link"><a href="#">FAQ</a></div>
+			                <div id="main-product-support-link"><a href="../products/rightpath">RightPath</a></div>
+			               	<div id="main-product-support-link"><a href="../products/mindmerge">MindMerge</a></div>
+			                <div id="main-product-support-link"><a href="#">Downloads</a></div>
+			                <div id="main-product-support-link"><a href="../contact">Contact Us</a></div>
+		            	</div>
+					</div>
+				</div>
+			</div><!-- /#main-info-wrapper -->
+
 		</section><!-- /#main -->
 		
 		<?php woo_main_after(); ?>
