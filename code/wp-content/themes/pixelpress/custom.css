@@ -344,6 +344,7 @@ table.support tr td {
 
 #support-menu a {
 	color: #FFF;
+	text-decoration: none;
 	text-shadow: 1px 1px 1px #000;
 }
 
@@ -389,7 +390,7 @@ table.support tr td {
 	padding: 10px 0 20px;
 }
 
-.support-temp-name {
+.support-info-box {
 	font-size: 12px;
 	color: #4b4b4b;
 	background-color: #fff;
@@ -403,7 +404,7 @@ table.support tr td {
 	margin-left: 2px;
 }
 
-#support-temp-name-title {
+#support-info-box-title {
 	font-size: 24px;
 	font-weight: bold;
 /*	border-bottom: 2px #d3d3d3 dotted;  */
@@ -448,6 +449,7 @@ table.support tr td {
 }
 
 #support-stay-signed-in {
+	font-weight: normal;
 	vertical-align: middle;
 }
 
@@ -459,6 +461,35 @@ table.support tr td {
 #support-help {
 	font-weight: normal;
 	font-size: 14px;
+}
+
+.support-products {
+	background-image: url(' images/support-white-box.png');
+	width: auto;
+	height: 240px;
+}
+
+#support-products-title {
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.support-contact {
+	clear: both;
+	padding-top: 50px;
+	font-size: 15px;
+	color: #333333;
+}
+
+.support-contact a {
+	color: #1050a2;
+}
+
+#support-contact-header {
+	font-size: 18px;
+	color: #000;
+	padding-bottom: 1em;
 }
 
 table.verto {
