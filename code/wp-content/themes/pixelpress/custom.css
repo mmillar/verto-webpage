@@ -339,22 +339,18 @@ Add styles beneath this line that you want to be applied across your entire site
 
 }
 
-table.support {
+.support {
 	width: 1024px;
-	height: 250px;
 	margin-left: auto;
 	margin-right: auto;
-        margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-table.support tr td {
-	vertical-align: middle;
-	text-align: center;
-	font-style: italic;
-	font-weight: bold;
-	font-size: 60px;
-	color: #FFF;
-	text-shadow: 1px 1px 1px #000;
+#support-banner {
+	width: 900px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;	
 }
 
 .support-main {
@@ -496,16 +492,18 @@ table.support tr td {
 	padding-bottom: 1em;
 }
 
-table.verto {
+.verto {
 	width: 1024px;
-	height: 250px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
-table.verto tr td {
-	vertical-align: middle;
+#verto-banner {
+	width: 900px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #verto-title {
@@ -633,16 +631,18 @@ table.verto tr td {
 	overflow: auto;
 }
 
-table.clients {
+.clients {
 	width: 1024px;
-	height: 250px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
-table.clients tr td {
-	vertical-align: middle;
+#clients-banner {
+	width: 900px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #clients-title {

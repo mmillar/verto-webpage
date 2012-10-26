@@ -17,10 +17,9 @@
 
         <div id="clients-main-wrapper">
             <div class="clients-main">
-                <table class="clients"><tr><td background="<?php bloginfo('template_directory');?>/images/client-banner-1024x250.png">
-                    <div id="clients-title">"Client Testimonial Here."</div>
-                    <div id="clients-subtitle">- Client Name</div>
-                </td></tr></table>
+                <div class="clients">
+                    <div id="clients-banner"><img src="<?php bloginfo('template_directory');?>/images/client-banner.png" /></div>
+                </div>
 
                 <div class="clients-testimonial-pictures"><!-- START Temporary --><br /><br /><br /><br /><br />[Pictures Go Here]<br /><br /><br /><br /><br /><!-- END Temporary --></div>
 

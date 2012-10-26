@@ -16,7 +16,9 @@
 		<section id="main" class="fullwidth">
 
         <div id="support-banner-wrapper">
-            <table class="support"><tr><td background="<?php bloginfo('template_directory');?>/images/support-banner-1024x250.png">"Say Something Nice Here."</td></tr></table>
+            <div class="support">
+                <div id="support-banner"><img src="<?php bloginfo('template_directory');?>/images/support-banner.png" /></div>
+            </div>
         </div><!-- /#support-banner-wrapper -->
 
         <div id="support-main-wrapper">

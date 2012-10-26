@@ -16,7 +16,9 @@
 		<section id="main" class="fullwidth">
 
         <div id="verto-summary-wrapper">
-            <table class="verto"><tr><td background="<?php bloginfo('template_directory');?>/images/verto-banner-1024x250.png"><div id="verto-title">Technology Empowering People</div></td></tr></table>
+            <div class="verto">
+                <div id="verto-banner"><img src="<?php bloginfo('template_directory');?>/images/verto-banner.png" /></div>
+            </div>
 
             <div class="verto-summary">
     	        <span id="verto-summary-name">Verto, </span>
