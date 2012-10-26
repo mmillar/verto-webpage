@@ -59,12 +59,12 @@
 					<div class = "arrowbutton"><img src="<?php bloginfo('template_directory');?>/images/Arrow_Button_Left.png" style="padding-top:20px;"> </div>
 					<ul class ="listofclients">
 
-							<li class ="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/CP_Logo.png">
+							<li class ="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Client_CP.png">
 							
 							</li>
-							<li class ="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Prodigy_Logo.png"></li>
+							<li class ="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Client_Prodigy.png"></li>
 							
-							<li class ="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Sunnybrook_Logo.png"></li>
+							<li class ="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Client_SB.png"></li>
 							
 						</ul>
 						<div class = "arrowbutton"><img src="<?php bloginfo('template_directory');?>/images/Arrow_Button_Right.png" style="padding-top:20px;"></div>
@@ -97,7 +97,6 @@
 			                <div id="main-product-support-link"><a href="#">FAQ</a></div>
 			                <div id="main-product-support-link"><a href="../products/rightpath">RightPath</a></div>
 			               	<div id="main-product-support-link"><a href="../products/mindmerge">MindMerge</a></div>
-			                <div id="main-product-support-link"><a href="#">Downloads</a></div>
 			                <div id="main-product-support-link"><a href="../contact">Contact Us</a></div>
 		            	</div>
 					</div>

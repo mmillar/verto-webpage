@@ -81,8 +81,8 @@
                             <span id="light-blue-text">Need support on our </span>
                             <span id="black-text">Products</span><span id="light-blue-text">?</span>
                         </div>
-                        <div><a href="../products/rightpath"><img src="<?php bloginfo('template_directory');?>/images/products_rightpath.png" /></a></div>
-                        <div><a href="../products/mindmerge"><img src="<?php bloginfo('template_directory');?>/images/products_mindmerge.png" /></a></div>
+                        <div><a href="../products/rightpath"><img src="<?php bloginfo('template_directory');?>/images/Support_RP_logo.png" /></a></div>
+                        <div><a href="../products/mindmerge"><img src="<?php bloginfo('template_directory');?>/images/Support_MM_logo.png" /></a></div>
                     </div>
                 </div>
 

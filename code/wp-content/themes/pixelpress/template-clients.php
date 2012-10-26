@@ -56,10 +56,9 @@
                     <span id="left-arrow"><img src="<?php bloginfo('template_directory');?>/images/ico-arrow-left.png" /></span>
                     <span id="pictures">
                         <ul>
-                            <li class="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/CP_Logo.png" /></li>
-                            <li class="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Prodigy_Logo.png" /></li>
-                            <li class="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Sunnybrook_Logo.png" /></li>
-                            <li class="clientlogos">GTA Rehab Network</li>
+                            <li class="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Client_CP.png" /></li>
+                            <li class="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Client_Prodigy.png" /></li>
+                            <li class="clientlogos"><img src="<?php bloginfo('template_directory');?>/images/Client_SB.png" /></li>
                         </ul>
                     </span>
                     <span id="right-arrow"><img src="<?php bloginfo('template_directory');?>/images/ico-arrow-right.png" /></span>
