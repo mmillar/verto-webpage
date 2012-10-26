@@ -169,6 +169,12 @@ Add styles beneath this line that you want to be applied across your entire site
 	z-index: 3;
 }
 
+#map-wrapper {
+	background-color: #313131;
+	position: relative;
+	z-index: -3;
+}
+
 #header-right #top-nav #search {
 	float:right;
 }
@@ -702,9 +708,9 @@ td#small {
 	padding-right: 3em;
 }
 
-table.contact {
+.contact-map {
 	width: 1024px;
-	height: 746px;
+	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -747,7 +753,7 @@ table.contact {
 
 #contact-green-circle {
 	position: absolute;
-	top: 70%;
+	top: 71%;
 	left: 29%;
 }
 

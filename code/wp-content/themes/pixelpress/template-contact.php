@@ -21,7 +21,8 @@ get_header();
 		<section id="main" class="fullwidth">
 
 			<div id="map-wrapper">
-				<table class="contact"><tr><td background="<?php bloginfo('template_directory');?>/images/contact-banner-1024x746.png">
+				<div class="contact-map">
+					<span id="contact-banner"><img src="<?php bloginfo('template_directory');?>/images/contact-banner.png" /></span>
 					<span id="contact-map"><img src="<?php bloginfo('template_directory');?>/images/contact-map.png" /></span>
 					<span id="contact-green-circle"><img src="<?php bloginfo('template_directory');?>/images/contact-green-circle.png" /></span>
 					<span id="contact-info">
@@ -45,7 +46,7 @@ get_header();
 						Click to view map
 						<br /><br />
 					</span>
-				</td></tr></table>
+				</div>
 			</div><!-- /#map-wrapper -->
 
 		</section><!-- /#main -->
