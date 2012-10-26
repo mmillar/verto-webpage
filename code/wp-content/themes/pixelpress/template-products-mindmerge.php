@@ -38,7 +38,7 @@
     		<?php woo_loop_before(); 
             $array = wp_get_attachment_image_src();?>
             <div class="product-logo">
-                <img src= "<?php bloginfo('template_directory');?>/images/products_mindmerge.png">
+                <img src= "<?php bloginfo('template_directory');?>/images/Banner_MM.png">
             </div>
             
             <?php woo_loop_after(); ?>

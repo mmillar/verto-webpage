@@ -38,7 +38,7 @@
     		<?php woo_loop_before(); 
             $array = wp_get_attachment_image_src();?>
             <div class="product-logo" id="rightpath">
-                <img src="<?php bloginfo('template_directory');?>/images/products_rightpath.png">
+                <img src="<?php bloginfo('template_directory');?>/images/Banner_RP.png">
             </div>
             
             <?php woo_loop_after(); ?>
