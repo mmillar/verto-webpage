@@ -51,8 +51,6 @@
         <div id="product-features-wrapper">
             <section id="product-features">
 
-                <div class="feature-title" id="rightpath">Features</div>
-                <div class="dotted-line"></div>
                 <ul class="product-features-numbered">
                     <li class="rpproduct1">
                         <img src="<?php bloginfo('template_directory');?>/images/ico-rightpath-circle-1.png" />  <p> Features </p>

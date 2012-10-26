@@ -236,13 +236,6 @@ Add styles beneath this line that you want to be applied across your entire site
 	color: #5d5d5d;
 }
 
-.feature-title#rightpath {
-	font-weight: bold;
-	font-size: 30px;
-	color: #1050A2;
-	padding-bottom: 10px;
-}
-
 .rpproduct1 {
 	width: 240px;
 	margin-right: 5px;
@@ -1044,16 +1037,6 @@ body {
 	margin-right: auto;
 }
 
-.feature-title {
-	font-weight: bold;
-	font-size: 30px;
-	color: #3e5166;
-	padding-bottom: 10px;
-
-}
-
-
-
 .mmproduct4 {
 	width:240px;
 	margin-right: 5px;
@@ -1152,12 +1135,6 @@ ul{
 	margin-left: auto;
 	margin-right: auto;
 	overflow: auto;
-}
-
-.dotted-line{
-	height:2px;
-/*	border-bottom: 2px dotted #d3d3d3;  */
-	width:1000px;
 }
 
 .product-features-numbered img{

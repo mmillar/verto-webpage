@@ -51,8 +51,6 @@
         <div id="product-features-wrapper">
             <section id="product-features">
 
-                <div class = "feature-title">Features</div>
-                <div class ="dotted-line"></div>
                 <ul class = "product-features-numbered">
                     <li class = "mmproduct1">
                         <img src="<?php bloginfo('template_directory');?>/images/Products_MM_Circle1.png">  <p> Features </p>
