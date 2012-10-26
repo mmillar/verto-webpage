@@ -24,7 +24,7 @@ get_header();
 				<table class="contact"><tr><td background="<?php bloginfo('template_directory');?>/images/contact-banner-1024x746.png">
 					<span id="contact-map"><img src="<?php bloginfo('template_directory');?>/images/contact-map.png" /></span>
 					<span id="contact-green-circle"><img src="<?php bloginfo('template_directory');?>/images/contact-green-circle.png" /></span>
-					<span id="contact-info-box">
+					<span id="contact-info">
 						<span id="contact-info-header">Headquarters</span><br />
 						Suite 1903,<br />
 						59 East Liberty St.,<br />
