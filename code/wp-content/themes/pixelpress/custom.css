@@ -28,6 +28,7 @@ Add styles beneath this line that you want to be applied across your entire site
 	z-index:-1;
 }
 
+
 #main-features-wrapper {
 	padding-top: 20px;
 	box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.85);
@@ -50,6 +51,12 @@ Add styles beneath this line that you want to be applied across your entire site
 #main-info-wrapper {
 	padding-top: 20px;
 	padding-bottom: 20px;
+	background-color: #f5f5f5;
+	box-shadow: 0px 0px 25px rgba(50, 50, 50, 0.15);
+	-webkit-box-shadow: 0px 0px 25px rgba(50, 50, 50, 0.15);
+	-moz-box-shadow: 0px 0px 25px rgba(50, 50, 50, 0.15);
+	-o-box-shadow: 0px 0px 25px rgba(50, 50, 50, 0.15);
+	z-index: 2;
 }
 
 #logo {
@@ -174,6 +181,17 @@ Add styles beneath this line that you want to be applied across your entire site
 	z-index: 3;
 }
 
+#contact-form-wrapper {
+	padding-top: 20px;
+	padding-bottom: 60px;
+	background-color: #ededed;
+	box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.50);
+	-webkit-box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.50);
+	-moz-box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.50);
+	-o-box-shadow: 0px 0px 17px rgba(50, 50, 50, 0.50);
+	z-index: 2;
+}
+
 #map-wrapper {
 	background-color: #313131;
 	position: relative;
@@ -212,6 +230,7 @@ Add styles beneath this line that you want to be applied across your entire site
 	color: #666666;
 	float: left;
 	width: 55%;
+padding-left: 50px;
 }
 
 .main-newsfeed a {
@@ -466,7 +485,7 @@ Add styles beneath this line that you want to be applied across your entire site
 }
 
 .support-products {
-	background-image: url(' images/support-white-box.png');
+/*	background-image: url(' images/support-white-box.png');  */
 	width: auto;
 	height: 240px;
 }
@@ -714,10 +733,12 @@ td#small {
 
 .contact-map {
 	width: 1024px;
-	margin-bottom: 20px;
+/*	margin-bottom: 20px;  */
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
+	z-index: -3;
+
 }
 
 .our-clients-all {
