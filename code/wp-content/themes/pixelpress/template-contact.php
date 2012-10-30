@@ -22,7 +22,7 @@ get_header();
 
 			<div id="map-wrapper">
 				<div class="contact-map">
-					<span id="contact-banner"><img src="<?php bloginfo('template_directory');?>/images/contact-banner.png" /></span>
+					<span id="contact-banner"><img src="<?php bloginfo('template_directory');?>/images/Banner_Contact.png" /></span>
 					<span id="contact-map"><img src="<?php bloginfo('template_directory');?>/images/contact-map.png" /></span>
 					<span id="contact-green-circle"><img src="<?php bloginfo('template_directory');?>/images/contact-green-circle.png" /></span>
 					<span id="contact-info">

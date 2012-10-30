@@ -17,7 +17,7 @@
 
         <div id="verto-summary-wrapper">
             <div class="verto">
-                <div id="verto-banner"><img src="<?php bloginfo('template_directory');?>/images/verto-banner.png" /></div>
+                <div id="verto-banner"><img src="<?php bloginfo('template_directory');?>/images/Banner_Verto.png" /></div>
             </div>
 
             <div class="verto-summary">

@@ -17,7 +17,7 @@
 
         <div id="support-banner-wrapper">
             <div class="support">
-                <div id="support-banner"><img src="<?php bloginfo('template_directory');?>/images/support-banner.png" /></div>
+                <div id="support-banner"><img src="<?php bloginfo('template_directory');?>/images/Banner_Support.png" /></div>
             </div>
         </div><!-- /#support-banner-wrapper -->
 

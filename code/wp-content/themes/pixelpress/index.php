@@ -38,12 +38,12 @@
 				<div class ="main-features">
 					<div class = "three-features">
 						<ul class ="listoffeatures">
-							<li class ="healthcare"><img src="<?php bloginfo('template_directory');?>/images/Index_Health.png"><div class= "index-title"><span id ="black-text" > For</span><span id = "blue-text"> Healthcare</span></div>
+							<li class ="healthcare"><img src="<?php bloginfo('template_directory');?>/images/Icon_Health_100px.png"><div class= "index-title"><span id ="black-text" > For</span><span id = "blue-text"> Healthcare</span></div>
 							<div class = "index-text">TextLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas pharetra bibendum. Suspendisse pretium, velit vel ultricies convallis, nisl tortor dictum sapien, vehicula dictum nunc ante tempus magna. Nullam vulputate elit a odio viverra quis luctus mauris sodales. Phasellus a rhoncus risus. Nulla facilisi. In gravida eleifend interdum. Phasellus in ipsum ipsum. Proin metus lorem, malesuada eu convallis sit amet, porttitor et est. <a href ="products/">More ></a></div>
 							</li>
-							<li class ="workforce"><img src="<?php bloginfo('template_directory');?>/images/Index_Workers.png"><div class= "index-title"><span id ="black-text" > For</span><span id = "blue-text"> Workforces</span></div>
+							<li class ="workforce"><img src="<?php bloginfo('template_directory');?>/images/Icon_Worker_100px.png"><div class= "index-title"><span id ="black-text" > For</span><span id = "blue-text"> Workforces</span></div>
 							<div class = "index-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas pharetra bibendum. Suspendisse pretium, velit vel ultricies convallis, nisl tortor dictum sapien, vehicula dictum nunc ante tempus magna. Nullam vulputate elit a odio viverra quis luctus mauris sodales. Phasellus a rhoncus risus. Nulla facilisi. In gravida eleifend interdum. Phasellus in ipsum ipsum. Proin metus lorem, malesuada eu convallis sit amet, porttitor et est.Text <a href ="products/">More ></a></div></li>
-							<li class ="site"><img src="<?php bloginfo('template_directory');?>/images/Index_Site.png"><div class= "index-title"><span id ="black-text" > For</span><span id = "blue-text"> Your Site</span></div>
+							<li class ="site"><img src="<?php bloginfo('template_directory');?>/images/Icon_Site_100px.png"><div class= "index-title"><span id ="black-text" > For</span><span id = "blue-text"> Your Site</span></div>
 							<div class = "index-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas pharetra bibendum. Suspendisse pretium, velit vel ultricies convallis, nisl tortor dictum sapien, vehicula dictum nunc ante tempus magna. Nullam vulputate elit a odio viverra quis luctus mauris sodales. Phasellus a rhoncus risus. Nulla facilisi. In gravida eleifend interdum. Phasellus in ipsum ipsum. Proin metus lorem, malesuada eu convallis sit amet, porttitor et est.Text <a href ="products/">More ></a></div></li>
 						</ul>
 					</div>

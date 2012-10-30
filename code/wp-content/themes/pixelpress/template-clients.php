@@ -18,7 +18,7 @@
         <div id="clients-main-wrapper">
             <div class="clients-main">
                 <div class="clients">
-                    <div id="clients-banner"><img src="<?php bloginfo('template_directory');?>/images/client-banner.png" /></div>
+                    <div id="clients-banner"><img src="<?php bloginfo('template_directory');?>/images/Banner_Client.png" /></div>
                 </div>
 
                 <div class="clients-testimonial-pictures"><!-- START Temporary --><br /><br /><br /><br /><br />[Pictures Go Here]<br /><br /><br /><br /><br /><!-- END Temporary --></div>
